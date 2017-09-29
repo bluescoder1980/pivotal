@@ -1,0 +1,7 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>/ProcessID:{460077E2-931E-4372-80B9-FCB14A16071B}</StartArguments>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\WINDOWS\system32\dllhost.exe</StartProgram>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+U:\IP Work\ASR\IPContact\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Contact.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Contact.pdb
+U:\IP Work\ASR\IPContact\obj\Debug\CRM.Pivotal.IP.Contact.dll
+U:\IP Work\ASR\IPContact\obj\Debug\CRM.Pivotal.IP.Contact.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPContact\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPContact\obj\Debug\CRM.Pivotal.IP.Contact.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPContact\obj\Debug\CRM.Pivotal.IP.Contact.pdb
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.Contact.dll
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.Contact.pdb

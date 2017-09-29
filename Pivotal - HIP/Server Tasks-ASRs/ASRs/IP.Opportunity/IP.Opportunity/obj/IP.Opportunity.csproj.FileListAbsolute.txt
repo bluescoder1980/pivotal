@@ -1,0 +1,9 @@
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.Opportunity.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.Opportunity\IP.Opportunity\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.Opportunity\IP.Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.Opportunity\IP.Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.pdb
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.pdb
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\CRM.Pivotal.IP.Opportunity.pdb

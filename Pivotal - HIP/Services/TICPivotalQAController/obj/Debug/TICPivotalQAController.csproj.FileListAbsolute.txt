@@ -1,0 +1,22 @@
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\TICPivotalQAController.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\TICPivotalQAController.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\obj\Debug\TICPivotalQAController.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\obj\Debug\TICPivotalQAController.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataAccess.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataAccess.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataObjects.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataObjects.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\Foundation.Server.Utility.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAController\bin\Debug\Foundation.Server.Data.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\TICPivotalQAController.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\TICPivotalQAController.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\Foundation.Server.Utility.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataAccess.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataObjects.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\Foundation.Server.Data.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataObjects.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\bin\Debug\TICPivotalQADataAccess.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\obj\Debug\TICPivotalQAController.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Services\TICPivotalQAController\obj\Debug\TICPivotalQAController.pdb

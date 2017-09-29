@@ -1,0 +1,3 @@
+<discovery xmlns="http://schemas.xmlsoap.org/disco/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://localhost/QA/TICPivotalQAServiceSvc.asmx?wsdl" docRef="http://localhost/QA/TICPivotalQAServiceSvc.asmx" />
+</discovery>

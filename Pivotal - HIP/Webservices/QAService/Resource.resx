@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MSG_EMPTY_SYSTEM_NAME">
+    <value>System name is empty</value>
+  </data>
+  <data name="MSG_INVALID_CONFIG_FILE">
+    <value>The WebSvcConfiguration.xml is invalid.Please check against schema validation</value>
+  </data>
+  <data name="MSG_NULL">
+    <value> is null</value>
+  </data>
+  <data name="MSG_EMPTY_RECORDID">
+    <value>RecordId is empty</value>
+  </data>
+  <data name="MSG_NULL_KEYLIST">
+    <value>Keys List is Null</value>
+  </data>
+  <data name="MSG_NULL_OPERATORSLIST">
+    <value>Operators List is null</value>
+  </data>
+  <data name="MSG_NULL_VALUESLIST">
+    <value>Values list is null</value>
+  </data>
+  <data name="MSG_FAILED_TO_READ_CONFIG_FILE">
+    <value>Error in reading WebSvcConfiguration.xml path.This could be for the following reasons:1) Check whether the Web.Config exists in the project directory.2) ConfigFilePath custom element is missing.3) ConfigFilePath is not set properly to the file path.</value>
+  </data>
+  <data name="MSG_FIELDS_OPERATORS_DONOT_MATCH">
+    <value>Fields and Operators do not match</value>
+  </data>
+  <data name="MSG_KEY_VALUE_PAIR_DONOT_MATCH">
+    <value>Key Value pair mismatch</value>
+  </data>
+</root>
+

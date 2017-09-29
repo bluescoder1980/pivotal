@@ -1,0 +1,5 @@
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.Product\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.Product.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.Product\obj\Debug\CRM.Pivotal.IP.Product.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.Product\obj\Debug\CRM.Pivotal.IP.Product.pdb
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.Product.pdb

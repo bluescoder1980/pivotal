@@ -1,0 +1,17 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\WINDOWS\system32\dllhost.exe</StartProgram>
+    <StartArguments>/ProcessID:{AD25E273-AAC3-461A-ACEB-124669A43546}</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\WINDOWS\system32\dllhost.exe</StartProgram>
+    <StartArguments>/ProcessID:{1B66D650-6E99-45B2-9822-953F4A48D07A}</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BuildServer|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\WINDOWS\system32\dllhost.exe</StartProgram>
+    <StartArguments>/ProcessID:{1B66D650-6E99-45B2-9822-953F4A48D07A}</StartArguments>
+  </PropertyGroup>
+</Project>

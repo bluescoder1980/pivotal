@@ -1,0 +1,181 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Pivotal.Applications.Homebuilders.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B034F8C-60D6-4E50-B047-CB9A574735C0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server</RootNamespace>
+    <AssemblyName>HomeBuilders.EF.Server.EnvisionIntegration</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>M:\Program Files\Pivotal\ePower\Dev_Offline\Assemblies\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Program Files\Pivotal\ePower\HB59Real\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>C:\Program Files\Pivotal\ePower\5.9 Production\Assemblies\Pivotal.Application.HomeBuilders.EF.Server.EnvisionIntegration.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BuildServer|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Program Files\Pivotal\ePower\HB59Real\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ReferencePath>$(AssemblyReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Foundation.Server.BusinessRule, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Pivotal\ePower\HB59Real\Assemblies\Foundation.Server.BusinessRule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Foundation.Server.Data, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Pivotal\ePower\HB59Real\Assemblies\Foundation.Server.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Foundation.Server.Utility, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Pivotal\ePower\HB59Real\Assemblies\Foundation.Server.Utility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pivotal.Interop.ADODBLib, Version=5.9.0.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\Pivotal.Interop.ADODBLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.RDALib, Version=5.9.0.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\Pivotal.Interop.RDALib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuilderClasses\BuilderBase.cs" />
+    <Compile Include="BuilderClasses\MI_LocationReferenceBuilder.cs" />
+    <Compile Include="BuilderClasses\IntersectionRulesBuilder.cs" />
+    <Compile Include="BuilderClasses\EnvisionBuilder.cs" />
+    <Compile Include="BuilderClasses\InventoryBuilder.cs" />
+    <Compile Include="BuilderClasses\LocationReferenceBuilder.cs" />
+    <Compile Include="BuilderClasses\OptionAssignmentsBuilder.cs" />
+    <Compile Include="BuilderClasses\OptionBuilder.cs" />
+    <Compile Include="BuilderClasses\RoomsBuilder.cs" />
+    <Compile Include="BuyerWebService.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="ContractExceptionMessage.cs" />
+    <Compile Include="Database\ContactCoBuyerData.cs" />
+    <Compile Include="Database\ContactCoBuyerData.Generated.cs" />
+    <Compile Include="Database\ContactData.cs" />
+    <Compile Include="Database\ContactData.Generated.cs" />
+    <Compile Include="Database\MI_NbhdPhaseData.cs" />
+    <Compile Include="Database\EnvBuyerSelectionsData.cs" />
+    <Compile Include="Database\DivisionProductLocationsData.cs" />
+    <Compile Include="Database\DivisionProductLocationsData.Generated.cs" />
+    <Compile Include="Database\EnvBuyerSelectionsData.Generated.cs" />
+    <Compile Include="Database\LoanData.cs" />
+    <Compile Include="Database\LoanData.Generated.cs" />
+    <Compile Include="Database\LoanProfileData.cs" />
+    <Compile Include="Database\LoanProfileData.Generated.cs" />
+    <Compile Include="Database\MI_OppProductLocationData.cs" />
+    <Compile Include="Database\OpportunityProductData.cs" />
+    <Compile Include="Database\OppProductLocationData.cs" />
+    <Compile Include="Database\OppProductLocationData.Generated.cs" />
+    <Compile Include="Database\ProductOptionRuleData.cs" />
+    <Compile Include="Database\DivisionProductAttributeData.cs" />
+    <Compile Include="Database\DivisionProductAttributeData.Generated.cs" />
+    <Compile Include="Database\DivisionProductPrefData.cs" />
+    <Compile Include="Database\DivisionProductPrefData.Generated.cs" />
+    <Compile Include="Database\LocationData.cs" />
+    <Compile Include="Database\DivisionData.cs" />
+    <Compile Include="Database\DivisionData.Generated.cs" />
+    <Compile Include="Database\DivisionProductData.cs" />
+    <Compile Include="Database\DivisionProductData.Generated.cs" />
+    <Compile Include="Database\EnvSyncData.cs" />
+    <Compile Include="Database\EnvSyncData.Generated.cs" />
+    <Compile Include="Database\NbhdPhaseData.cs" />
+    <Compile Include="Database\NbhdPhaseData.Generated.cs" />
+    <Compile Include="Database\NbhdpProductData.cs" />
+    <Compile Include="Database\NbhdpProductData.Generated.cs" />
+    <Compile Include="Database\NeighborhoodData.cs" />
+    <Compile Include="Database\NeighborhoodData.Generated.cs" />
+    <Compile Include="Database\OpportunityData.cs" />
+    <Compile Include="Database\OpportunityData.Generated.cs" />
+    <Compile Include="Database\OpportunityProductData.Generated.cs" />
+    <Compile Include="Database\ProductData.cs" />
+    <Compile Include="Database\ProductData.Generated.cs" />
+    <Compile Include="Database\ProductOptionRuleData.Generated.cs" />
+    <Compile Include="Database\ProductPackageComponentData.cs" />
+    <Compile Include="Database\ProductPackageComponentData.Generated.cs" />
+    <Compile Include="Database\RegionData.cs" />
+    <Compile Include="Database\RegionData.Generated.cs" />
+    <Compile Include="Database\SystemData.cs" />
+    <Compile Include="Database\SystemData.Generated.cs" />
+    <Compile Include="EnvisionHttpClientProtocol.cs">
+    </Compile>
+    <Compile Include="EnvisionIntegration.cs" />
+    <Compile Include="EnvisionIntegration_BH.cs" />
+    <Compile Include="EnvisionIntegration_BS.cs" />
+    <Compile Include="EnvisionIntegration_FTPHelper.cs" />
+    <Compile Include="EnvisionIntegration_Inv.cs" />
+    <Compile Include="EnvisionLoggingReader.cs" />
+    <Compile Include="EnvisionLoggingWriter.cs" />
+    <Compile Include="EnvisionXsdGenerated\Envision_BuyerSelections-v1_9_3.cs" />
+    <Compile Include="EnvisionXsdGenerated\Envision_DCM_WS_Buyer-v1_9_3.cs" />
+    <Compile Include="EnvisionXsdGenerated\Envision_DCM_WS_Home-v1_9_3.cs" />
+    <Compile Include="EnvisionXsdGenerated\Envision_Option-v1_9_3.cs" />
+    <Compile Include="EnvisionXsdGenerated\Envision_Option_Extended.cs" />
+    <Compile Include="EnvisionXsdGenerated\Envision_WS_Output-v1_9_3.cs" />
+    <Compile Include="FtpService.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="HomeWebService.cs" />
+    <Compile Include="Database\LocationData.Generated.cs" />
+    <Compile Include="Logging.cs" />
+    <Compile Include="MI_Envision_Utility.cs" />
+    <Compile Include="OptionsManagerWebService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sync.cs" />
+    <Compile Include="SyncProxy.cs" />
+    <Compile Include="ValidateXml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pivotal.Applications.Homebuilders.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

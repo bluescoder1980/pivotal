@@ -1,0 +1,12 @@
+C:\Documents and Settings\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Documents and Settings\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.pdb
+C:\Documents and Settings\xcmigles\Desktop\Opportunity1\IP.Opportunity\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xcmigles\Desktop\Opportunity1\IP.Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.dll
+C:\Documents and Settings\xcmigles\Desktop\Opportunity1\IP.Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.pdb
+C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.pdb
+C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\ASRs\Opportunity\IP.Opportunity\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\ASRs\Opportunity\IP.Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.dll
+C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\ASRs\Opportunity\IP.Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.pdb
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.pdb

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HomeBuilders.EF.Server.Product">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\OOTB ASR\AppServer Rules Source Code\Product\HomeBuilders.EF.Server.Product.sln">
+</Property><Property Name="Date" Value="Wednesday, September 22, 2010">
+</Property><Property Name="Time" Value="14:09:04 PM">
+</Property></Properties><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="HomeBuilders.EF.Server.Product.csproj" Description="Project file successfully backed up as C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\OOTB ASR\AppServer Rules Source Code\Product\Backup\HomeBuilders.EF.Server.Product.csproj">
+</Event><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="modProduct.cs" Description="File successfully backed up as C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\OOTB ASR\AppServer Rules Source Code\Product\Backup\modProduct.cs">
+</Event><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="Product.cs" Description="File successfully backed up as C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\OOTB ASR\AppServer Rules Source Code\Product\Backup\Product.cs">
+</Event><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="Properties\Assemblyinfo.cs" Description="File successfully backed up as C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\OOTB ASR\AppServer Rules Source Code\Product\Backup\Properties\Assemblyinfo.cs">
+</Event><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="Pivotal.Applications.Homebuilders.snk" Description="File successfully backed up as C:\Documents and Settings\xcmigles\Desktop\Cristina's Folder\Source Code\OOTB ASR\AppServer Rules Source Code\Product\Backup\Pivotal.Applications.Homebuilders.snk">
+</Event><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="HomeBuilders.EF.Server.Product.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HomeBuilders.EF.Server.Product" Source="HomeBuilders.EF.Server.Product.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HomeBuilders.EF.Server.Product" Source="HomeBuilders.EF.Server.Product.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,11 @@
+C:\Program Files\Pivotal\ePower\Homebuilders\Assemblies\HomeBuilders.EF.Server.Opportunity.dll
+C:\Program Files\Pivotal\ePower\Homebuilders\Assemblies\HomeBuilders.EF.Server.Opportunity.pdb
+C:\Program Files\Pivotal\ePower\Homebuilders\Assemblies\Pivotal.Application.HomeBuilders.EF.Server.Opportunity.xml
+C:\Program Files\Pivotal\Homebuilder\Homebuilder 5.9\AppServer Rules Source Code\Opportunity\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\Homebuilder\Homebuilder 5.9\AppServer Rules Source Code\Opportunity\obj\Debug\HomeBuilders.EF.Server.Opportunity.dll
+C:\Program Files\Pivotal\Homebuilder\Homebuilder 5.9\AppServer Rules Source Code\Opportunity\obj\Debug\HomeBuilders.EF.Server.Opportunity.pdb
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Opportunity.pdb
+C:\Documents and Settings\xcmigles\Desktop\Opportunity\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xcmigles\Desktop\Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.dll
+C:\Documents and Settings\xcmigles\Desktop\Opportunity\obj\Debug\CRM.Pivotal.IP.Opportunity.pdb

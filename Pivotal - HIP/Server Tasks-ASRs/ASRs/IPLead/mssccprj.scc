@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[IP.Lead.sln]
+SCC_Aux_Path = "\\vss01\VSSMain\SourceSafe"
+SCC_Project_Name = "$/Irvine Pacific (HIP)/ASR/ASR/IPLead", KXQHAAAA
+
+[IPLead.csproj]
+SCC_Aux_Path = "\\vss01\VSSMain\SourceSafe"
+SCC_Project_Name = "$/Irvine Pacific (HIP)/ASR/ASR/IPLead", KXQHAAAA

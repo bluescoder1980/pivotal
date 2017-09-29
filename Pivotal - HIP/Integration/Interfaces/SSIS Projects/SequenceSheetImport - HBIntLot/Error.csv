@@ -1,0 +1,57 @@
+Sales_Phase,Release_Date,Est_Close_Date,Tract,Lot,Unit,Street_Address,Zip,Plan,Elevation,Elevation_Description,House_Sq_Ft,Optioned_Sq_Ft,Total_Sq_Ft,Garage_Spaces,Base_Price_Plan_1,Base_Price_Plan_2,Base_Price_Plan_3,Base_Price_Plan_4,Lot_Premium,Elevation_Premium,Upgrade_Preplots,Room_Preplots,Conservatory_Preplot,Rounding,Total_Price,FHA_VA,Lender,Walk_Date,Nbhd_Code,F28,Construction Phase,STRING_Plan,STRING_Elevation,STRING_Sales_Phase,STRING_Unit,STRING_Lot,STRING_Tract,STRING_Nbhd_Code,drvLOT_LookUp,PRODUCT_ID,DERIVED_Model_Site,DERIVED_City,DERIVED_State,DERIVED_Country,DERIVED_Inactive,DERIVED_Base_Plan_Price,ErrorCode,ErrorColumn,ErrorMessage,ErrorRow,ErrorDatetime,ErrorRunStartDatetime
+2,10/30/2010,5/5/2011,17357,2,47,26 Lacebark,92618,2,BR,Early California,1904,0,1904,2,0,565500,0,0,0,,,,,,565500,,,,11,,2,2,BR,2,47,2,17357,11,11-2-47-17357,0000000000000020,0,Irvine,CA,US,0,565500.0000,-2,-1,Error sending source row 16 to Pivotal PBS: Lot Rejected - Integration is attempting to change the Plan associated with this Lot, and the Lot already has an active Contract or Reservation (Error number: -2146233088) Lot Rejected - Integration is attempting to change the Plan associated with this Lot, and the Lot already has an active Contract or Reservation
+CRM.Pivotal.IP.SAPToHIPIntegration
+   at CRM.Pivotal.IP.SAPToHIPIntegration.Lot.SaveFormData(IRForm pForm, Object Recordsets, Object& ParameterList)
+   at PivotalScriptHost.FormScriptProxy.SaveFormData(IRForm form, Object recordsets, Object& parameterList)====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRForm::SaveFormData.
+  Occurred in .\rform.cpp on line 185.
+  Compiled on Jan  6 2010, modified on Thu May 28 13:29:21 2009.
+====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRForm::SaveFormDataAutoTransact.
+  Occurred in .\rform.cpp on line 2058.
+  Compiled on Jan  6 2010, modified on Thu May 28 13:29:21 2009.
+====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRXMLformUpdate::Update.
+  Occurred in .\rxsaveformdata.cpp on line 740.
+  Compiled on Jan  6 2010, modified on Wed Jan 10 12:14:21 2007.
+====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRSaveFormData::Execute.
+  Occurred in .\rxsaveformdata.cpp on line 804.
+  Compiled on Jan  6 2010, modified on Wed Jan 10 12:14:21 2007.
+,16,2010-11-05 09:33:43.457000000,2010-11-05 09:33:39.457000000
+9,2/19/2011,,17357,1,16,25 Loquat,92618,3,,Formal Spanish,1956,0,1956,2,0,0,595500,0,2000,,,,,,597500,,,,11,,9,3,,9,16,1,17357,11,11-1-16-17357,0000000000000059,0,Irvine,CA,US,0,595500.0000,-2,-1,Error sending source row 73 to Pivotal PBS: Lot Rejected - A Plan Code was found & looked-up successfully, but no Elevation Code was supplied in the External_Source_Elev_Code field - ensure an Elevation is supplied, if also supplying a Plan (Error number: -2146233088) Lot Rejected - A Plan Code was found & looked-up successfully, but no Elevation Code was supplied in the External_Source_Elev_Code field - ensure an Elevation is supplied, if also supplying a Plan
+CRM.Pivotal.IP.SAPToHIPIntegration
+   at CRM.Pivotal.IP.SAPToHIPIntegration.Lot.SaveFormData(IRForm pForm, Object Recordsets, Object& ParameterList)
+   at PivotalScriptHost.FormScriptProxy.SaveFormData(IRForm form, Object recordsets, Object& parameterList)====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRForm::SaveFormData.
+  Occurred in .\rform.cpp on line 185.
+  Compiled on Jan  6 2010, modified on Thu May 28 13:29:21 2009.
+====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRForm::SaveFormDataAutoTransact.
+  Occurred in .\rform.cpp on line 2058.
+  Compiled on Jan  6 2010, modified on Thu May 28 13:29:21 2009.
+====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRXMLformUpdate::Update.
+  Occurred in .\rxsaveformdata.cpp on line 740.
+  Compiled on Jan  6 2010, modified on Wed Jan 10 12:14:21 2007.
+====================
+
+  HRESULT = 80131500 -- Unknown error
+  Function = CRSaveFormData::Execute.
+  Occurred in .\rxsaveformdata.cpp on line 804.
+  Compiled on Jan  6 2010, modified on Wed Jan 10 12:14:21 2007.
+,73,2010-11-05 09:33:56.285000000,2010-11-05 09:33:39.457000000

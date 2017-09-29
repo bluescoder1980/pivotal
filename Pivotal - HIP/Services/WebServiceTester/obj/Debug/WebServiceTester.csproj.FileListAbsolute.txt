@@ -1,0 +1,6 @@
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\WebServiceTester\bin\Debug\WebServiceTester.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\WebServiceTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\WebServiceTester\obj\Debug\WebServiceTester.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\WebServiceTester\bin\Debug\WebServiceTester.exe.config
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\WebServiceTester\bin\Debug\WebServiceTester.exe
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\WebServiceTester\obj\Debug\WebServiceTester.exe

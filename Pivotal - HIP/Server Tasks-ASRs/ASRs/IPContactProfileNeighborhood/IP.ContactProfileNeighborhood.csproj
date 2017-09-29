@@ -1,0 +1,102 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>CRM.Pivotal.IP.ContactProfileNeighborhood</AssemblyName>
+    <AssemblyOriginatorKeyFile>IP.Applications.ContactProfileNeighborhood.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CRM.Pivotal.IP</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <ProjectGuid>{4AAAD368-36A8-4248-884F-7A4A651F4392}</ProjectGuid>
+    <SignAssembly>false</SignAssembly>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>C:\Program Files\Pivotal\ePower\HIP\Assemblies\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>
+    </DefineConstants>
+    <StartArguments>
+    </StartArguments>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>
+    </DefineConstants>
+    <StartArguments>
+    </StartArguments>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>..\bin\Pivotal.Application.HomeBuilders.EF.Server.ContactProfileNeighborhood.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BuildServer|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>$(CCNetArtifactDirectory)$(CCNetLabel)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ReferencePath>$(AssemblyReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Foundation.Server.BusinessRule, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\5.9 Production\Assemblies\Foundation.Server.BusinessRule.dll</HintPath>
+    </Reference>
+    <Reference Include="Foundation.Server.Data, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\5.9 Production\Assemblies\Foundation.Server.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Foundation.Server.Utility, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\5.9 Production\Assemblies\Foundation.Server.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.ADODBLib, Version=5.9.0.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\Pivotal.Interop.ADODBLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.RDALib, Version=5.9.0.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\Pivotal.Interop.RDALib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContactProfileNeighborhood.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InactivateContactProfileNeighborhood.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modContactProfileNeighborhood.cs" />
+    <Compile Include="Properties\Assemblyinfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IP.Applications.ContactProfileNeighborhood.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

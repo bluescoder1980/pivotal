@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICPivotalQA", "TICPivotalQA.csproj", "{557530FF-3DBC-4104-B922-D0B1F86DF318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICPivotalQAUtility", "..\TICPivotalQAUtility\TICPivotalQAUtility.csproj", "{ED3A7497-8F2F-4555-8B2A-F03CD7D0193F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceTester", "..\WebServiceTester\WebServiceTester.csproj", "{76AFCF17-2BCE-438C-B4D1-612DB2843106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICPivotalQADataAccess", "..\TICPivotalQADataAccess\TICPivotalQADataAccess.csproj", "{725FC8D0-2204-4A9D-9991-F784ACAEC338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICPivotalQAController", "..\TICPivotalQAController\TICPivotalQAController.csproj", "{06FC2C96-03D2-4E8D-9915-8AAC2BEEB9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICPivotalQADataObjects", "..\QADataObjects\TICPivotalQADataObjects.csproj", "{33CD2825-6F63-4B9D-8E61-458985111308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{557530FF-3DBC-4104-B922-D0B1F86DF318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557530FF-3DBC-4104-B922-D0B1F86DF318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557530FF-3DBC-4104-B922-D0B1F86DF318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557530FF-3DBC-4104-B922-D0B1F86DF318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3A7497-8F2F-4555-8B2A-F03CD7D0193F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3A7497-8F2F-4555-8B2A-F03CD7D0193F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3A7497-8F2F-4555-8B2A-F03CD7D0193F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3A7497-8F2F-4555-8B2A-F03CD7D0193F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AFCF17-2BCE-438C-B4D1-612DB2843106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AFCF17-2BCE-438C-B4D1-612DB2843106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AFCF17-2BCE-438C-B4D1-612DB2843106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AFCF17-2BCE-438C-B4D1-612DB2843106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725FC8D0-2204-4A9D-9991-F784ACAEC338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725FC8D0-2204-4A9D-9991-F784ACAEC338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725FC8D0-2204-4A9D-9991-F784ACAEC338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725FC8D0-2204-4A9D-9991-F784ACAEC338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FC2C96-03D2-4E8D-9915-8AAC2BEEB9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FC2C96-03D2-4E8D-9915-8AAC2BEEB9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FC2C96-03D2-4E8D-9915-8AAC2BEEB9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FC2C96-03D2-4E8D-9915-8AAC2BEEB9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CD2825-6F63-4B9D-8E61-458985111308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CD2825-6F63-4B9D-8E61-458985111308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CD2825-6F63-4B9D-8E61-458985111308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CD2825-6F63-4B9D-8E61-458985111308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

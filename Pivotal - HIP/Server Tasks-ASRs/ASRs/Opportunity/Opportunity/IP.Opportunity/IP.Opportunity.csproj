@@ -1,0 +1,148 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>CRM.Pivotal.IP.Opportunity</AssemblyName>
+    <AssemblyOriginatorKeyFile>Pivotal.Applications.Homebuilders.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{2A063E56-91B3-4DDD-B44F-15AAEC339A97}</ProjectGuid>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <StartArguments>
+    </StartArguments>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>TRACE</DefineConstants>
+    <StartArguments>
+    </StartArguments>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>..\bin\Pivotal.Application.HomeBuilders.EF.Server.Opportunity.xml</DocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Optimize>true</Optimize>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BuildServer|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>$(CCNetArtifactDirectory)$(CCNetLabel)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ReferencePath>$(AssemblyReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CRM.Pivotal.IP.ContactProfileNeighborhood, Version=5.9.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.ContactProfileNeighborhood.dll</HintPath>
+    </Reference>
+    <Reference Include="Foundation.Server.BusinessRule, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\Foundation.Server.BusinessRule.dll</HintPath>
+    </Reference>
+    <Reference Include="Foundation.Server.Data, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\Foundation.Server.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Foundation.Server.Utility, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\Foundation.Server.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="HomeBuilders.EF.Server.ContactProfileNeighborhood, Version=5.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\HomeBuilders.EF.Server.ContactProfileNeighborhood.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HomeBuilders.EF.Server.LotConfiguration, Version=5.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\HomeBuilders.EF.Server.LotConfiguration.dll</HintPath>
+    </Reference>
+    <Reference Include="HomeBuilders.EF.Server.Milestone, Version=5.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\HomeBuilders.EF.Server.Milestone.dll</HintPath>
+    </Reference>
+    <Reference Include="HomeBuilders.EF.Server.OpportunityAdjustment, Version=5.9.0.0, Culture=neutral, PublicKeyToken=2d2222d941beba41, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\HomeBuilders.EF.Server.OpportunityAdjustment.dll</HintPath>
+    </Reference>
+    <Reference Include="HomeBuilders.EF.Server.OpportunityProductAttributePreference, Version=5.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\HomeBuilders.EF.Server.OpportunityProductAttributePreference.dll</HintPath>
+    </Reference>
+    <Reference Include="HomeBuilders.EF.Server.PriceChangeHistory, Version=5.9.0.0, Culture=neutral, PublicKeyToken=2d2222d941beba41, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\HIP\Assemblies\HomeBuilders.EF.Server.PriceChangeHistory.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.ADODBLib, Version=5.9.0.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\Pivotal.Interop.ADODBLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.RDALib, Version=5.9.0.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Pivotal\ePower\Pivotal.Interop.RDALib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="modOpportunity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Opportunity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpportunityFinancialCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpportunityPostSaleQuote.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Assemblyinfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pivotal.Applications.Homebuilders.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

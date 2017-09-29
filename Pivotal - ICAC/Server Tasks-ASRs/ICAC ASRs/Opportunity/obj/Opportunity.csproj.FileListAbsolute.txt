@@ -1,0 +1,5 @@
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Opportunity.dll
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Opportunity.pdb
+C:\PROJECTS\ASRs\IAC\Opportunity\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJECTS\ASRs\IAC\Opportunity\obj\Debug\CRM.Pivotal.IAC.Opportunity.dll
+C:\PROJECTS\ASRs\IAC\Opportunity\obj\Debug\CRM.Pivotal.IAC.Opportunity.pdb

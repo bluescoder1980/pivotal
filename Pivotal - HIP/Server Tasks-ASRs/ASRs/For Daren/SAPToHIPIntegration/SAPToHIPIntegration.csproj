@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BD52BCE-53CA-47CC-8D31-64A772EA037D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM.Pivotal.IP.SAPToHIPIntegration</RootNamespace>
+    <AssemblyName>CRM.Pivotal.IP.SAPToHIPIntegration</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Foundation.Server.BusinessRule, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\Foundation.Server.BusinessRule.dll</HintPath>
+    </Reference>
+    <Reference Include="Foundation.Server.Data, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL" />
+    <Reference Include="Foundation.Server.Utility, Version=5.9.1.0, Culture=neutral, PublicKeyToken=b68dd9706872ec90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\Foundation.Server.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.ADODBLib, Version=5.9.3.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Pivotal\ePower\Pivotal.Interop.ADODBLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.COMAdminLib, Version=5.9.3.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Pivotal\ePower\Pivotal.Interop.COMAdminLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.RDALib, Version=5.9.3.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Pivotal\ePower\Pivotal.Interop.RDALib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pivotal.Interop.TimeConvLib, Version=5.9.3.0, Culture=neutral, PublicKeyToken=1ef445b59b9ece60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Pivotal\ePower\Pivotal.Interop.TimeConvLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adjustment.cs" />
+    <Compile Include="DivisionOption.cs" />
+    <Compile Include="IntegrationConstants.cs" />
+    <Compile Include="IntegrationUtility.cs" />
+    <Compile Include="Lot.cs" />
+    <Compile Include="Neighborhood.cs" />
+    <Compile Include="Option.cs" />
+    <Compile Include="Phase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

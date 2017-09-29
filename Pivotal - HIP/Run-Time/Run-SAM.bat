@@ -1,0 +1,1 @@
+dtexec /f "C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Integration\Interfaces\SSIS Projects\Product SAM Integration - 10022010\PivotalTemplate\bin\ICP1107.dtsx" /l "DTS.LogProviderTextFile;C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Run-Time\log.txt"

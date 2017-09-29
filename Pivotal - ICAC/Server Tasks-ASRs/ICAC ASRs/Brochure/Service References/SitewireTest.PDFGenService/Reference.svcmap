@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5b74b4aa-d97b-4f54-822b-77dba456abc0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://tic.rental-living.stage.sitewire.net/WebServices/PDFGenService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PDFGenService.xsd" MetadataType="Schema" ID="5aaf7980-2264-41ef-b11a-d3d792749a76" SourceId="1" SourceUrl="http://tic.rental-living.stage.sitewire.net/WebServices/PDFGenService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PDFGenService1.xsd" MetadataType="Schema" ID="4992f5ef-a36d-4ee6-8bad-886355df7ce4" SourceId="1" SourceUrl="http://tic.rental-living.stage.sitewire.net/WebServices/PDFGenService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PDFGenService.disco" MetadataType="Disco" ID="5583e51c-c2df-4e08-a644-25a422d7dfc2" SourceId="1" SourceUrl="http://tic.rental-living.stage.sitewire.net/WebServices/PDFGenService.svc?disco" />
+    <MetadataFile FileName="PDFGenService2.xsd" MetadataType="Schema" ID="836a8e21-43e9-4489-bb8a-4828eaeb3cc0" SourceId="1" SourceUrl="http://tic.rental-living.stage.sitewire.net/WebServices/PDFGenService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PDFGenService.wsdl" MetadataType="Wsdl" ID="20c1ecef-7988-496e-b018-9f37662d4d44" SourceId="1" SourceUrl="http://tic.rental-living.stage.sitewire.net/WebServices/PDFGenService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

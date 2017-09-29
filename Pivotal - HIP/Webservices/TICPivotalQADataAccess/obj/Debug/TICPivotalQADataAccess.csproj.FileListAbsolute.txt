@@ -1,0 +1,7 @@
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\bin\Debug\TICPivotalQADataAccess.dll.config
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\bin\Debug\TICPivotalQADataAccess.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\bin\Debug\TICPivotalQADataAccess.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\obj\Debug\TICPivotalQADataAccess.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\obj\Debug\TICPivotalQADataAccess.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQADataAccess\bin\Debug\app.config

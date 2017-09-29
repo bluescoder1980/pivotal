@@ -1,0 +1,2995 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HomeBuilders.EF.Server.Opportunity</name>
+    </assembly>
+    <members>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote">
+            <summary>
+            This module provides all the business rules for the Opportunity object.
+            </summary>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.AddFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            Add form data
+            </summary>
+            <param name="pForm">The IRForm object reference to the client IRForm object</param>
+            <param name="Recordsets">Hold the reference for the current primary recordset and its all</param>
+            secondaries in the specified form
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            IRFormScript_AddFormData - Return information to IRSystem</returns>
+            <history>
+            Revision#     Date            Author          Description
+            3.8.0.0       5/12/2006       DYin            Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.DeleteFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            Delete Form Data
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="RecordId">The business object record Id</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.Execute(Pivotal.Interop.RDALib.IRForm,System.String,System.Object@)">
+            <summary>
+            Execute a specified method
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="MethodName">The method name to be executed</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            ParameterList - Return executed result</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.LoadFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="RecordId">The Opportunity Id</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>The form data</returns>
+            <history>
+            Revision#     Date        Author       Description
+            3.8.0.0       5/12/2006   DYin         Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.NewFormData(Pivotal.Interop.RDALib.IRForm,System.Object@)">
+            <summary>
+            This function load a new Opportunity Loan Profile record
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            IRFormScript_NewFormData   - Returned information</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.NewSecondaryData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@,Pivotal.Interop.ADODBLib.Recordset@)">
+            <summary>
+            This function create a new secondary record for the specified secondary
+            </summary>
+            <param name="pForm">The IRForm object reference to the client IRForm object</param>
+            <param name="SecondaryName">The secondary name (the Segment name to hold a secondary)</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <param name="Recordset">Hold the reference for the secondary</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.SaveFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            This function updates the Opportunity Loan Profile plan
+            </summary>
+            <param name="pForm">The IRForm object reference to the client IRForm object</param>
+            <param name="Recordsets">Hold the reference for the current primary recordset and its all</param>
+            secondaries in the specified form
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author          Description
+            3.8.0.0       5/12/2006   DYin            Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.SetSystem(Pivotal.Interop.RDALib.RSystem)">
+            <summary>
+            This subroutine sets the Active Client System.
+            </summary>
+            <param name="pSystem">Active Client System Name</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.CreatePostSaleQuote(System.Object)">
+            <summary>
+            Create a Post Sale Quote on a contract
+            </summary>
+            <returns></returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.ApplyPostSaleQuote(System.Object)">
+            <summary>
+            Functionality for when a user accepts a post sale quote
+            </summary>
+            <returns>n/a</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.ProcessAdjustmentRecords(System.Object,System.Object)">
+            <summary>
+            Process the Source and Target adjustment recordsets
+            </summary>
+            <param name="postSaleQuoteContractId">Post Sale Quote Contract Id</param>
+            <param name="changeOrderId">change order id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.ProcessOptionRecords(System.Object,System.Object)">
+            <summary>
+            Get Difference between 2 Contract Option recordsets
+            </summary>
+            <param name="postSaleQuoteOpportunityId">Post Sale Quote Contract Id</param>
+            <param name="changeOrderId">change order id</param>
+            <returns>n/a</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            3.8.1.0        9/21/2006      NDcu      Added "this" keyword to the ModifyContractOption 
+            5.9.1.0        4/10/2007      BC        To handle the Package Components
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.GetNextSequenceNumber(System.Object)">
+            <summary>
+            Get the next sequence number for the change order
+            </summary>
+            <param name="opportunityId">the opportunity id</param>
+            <returns>
+            long - the next sequence number</returns>
+            <history>
+            Revision#  Date        Author    Description
+            3.8.0.0    5/12/2006   DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.InactivateOtherPostSaleQuotes(System.Object,System.Boolean)">
+            <summary>
+            Inactivate the remaining Post Sale Quotes after one has been Applied.
+            </summary>
+            Sets the inactive flags on all other Post Sale Quotes for a Contract.
+            <returns>nothing</returns>
+            <history>
+            nothing
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.IsOptionModified(Pivotal.Interop.ADODBLib.Recordset,Pivotal.Interop.ADODBLib.Recordset,System.Boolean@)">
+            <summary>
+            Determine if an option on a Post Sale Quote has been modified compared to the origional contract
+            </summary>
+            <param name="contractOptionRecordset">Recordset containing Contract Option</param>
+            <param name="postSaleQuoteOptionRecordset">recordset containing Post Sale Quote option</param>
+            <param name="quantityModified">set when quantity has been modifed either on the option or the secondary</param>- 
+            <returns>Boolean - True if modified; false otherwise</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.IsOptionSecondaryModified(System.Object,System.Object,System.String,System.String,System.Boolean@,System.String)">
+            <summary>
+            Determine if an option's secondary has been modified on a Post Sale Quote
+            </summary>
+            <param name="sourceOptionId">Source Option Id</param>
+            <param name="targetOptionId">Target option id</param>
+            <param name="tableName">secondary table name</param>
+            <param name="linkFieldName">the link field</param>
+            <param name="quantityModified">Flag to indicate if quantity is modified</param>
+            <param name="sortFieldName">Field name for sort</param>
+            <returns>Boolean - True if modified; false otherwise</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.ModifyContractOption(System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus,System.Object)">
+            <summary>
+            Make Option changes to the Contract
+            If ADD
+            If REMOVE
+            If CHANGE
+            </summary>
+            <param name="contractId">Contract Id</param>
+            <param name="postSaleQuoteOpportunityProductId">PSQ Opp Product</param>
+            <param name="changeOrderLogic">Change Order as enumerator value(Add/Remove/Change)</param>
+            <param name="changeOrderStatus">Change Order Status as enumerator value</param>
+            <param name="changeOrderId">Change Order id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.ModifyContractOption(System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus,System.Object,System.Boolean)">
+            <summary>
+            Make Option changes to the Contract
+            If ADD
+            If REMOVE
+            If CHANGE
+            </summary>
+            <param name="contractId">Contract Id</param>
+            <param name="postSaleQuoteOpportunityProductId">PSQ Opp Product</param>
+            <param name="changeOrderLogic">Change Order as enumerator value(Add/Remove/Change)</param>
+            <param name="changeOrderStatus">Change Order Status as enumerator value</param>
+            <param name="changeOrderId">Change Order id</param>
+            <param name="inventoryQuote">handle updates/incativates for inventory quote</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            3.8.1.0        9/21/2006      NDcu      Added  DBNull.Value as the parameter to the ModifyContractOption method 
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.ModifyContractOption(System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus,System.Object,System.Boolean,System.Object)">
+            <summary>
+            Make Option changes to the Contract
+            If ADD
+            If REMOVE
+            If CHANGE
+            </summary>
+            <param name="contractId">Contract Id</param>
+            <param name="postSaleQuoteOpportunityProductId">PSQ Opp Product</param>
+            <param name="changeOrderLogic">Change Order as enumerator value(Add/Remove/Change)</param>
+            <param name="changeOrderStatus">Change Order Status as enumerator value</param>
+            <param name="changeOrderId">Change Order id</param>
+            <param name="inventoryQuote">handle updates/incativates for inventory quote</param>
+            <param name="contractOpportunityProductId">Contract Option Product</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.AddChangeOrderAdjustments(System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus)">
+            <summary>
+            This function will add Change Orders Adjustment records
+            </summary>
+            <param name="opportunityAdjustmentId">Opportunity Adjustment Id</param>
+            <param name="changeOrderId">the change order Id</param>
+            <param name="changeOrderStatus">the opportunity Id</param>
+            <returns>Change Order Adjustment Id</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.AddPostSaleQuoteAdjustmentToOriginalOpportunity(System.Object,System.Object)">
+            <summary>
+            this function will add a psq adjustment to the original opp
+            </summary>
+            <param name="opportunityId">the Opporuntiy Id to add the adjustment to</param>
+            <param name="opportunityAdjustmentId">the psq adjustment id</param>
+            <returns>
+            the new adjustment id</returns>
+            <history>
+            Revision       Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.IsAdjustmentModified(System.Object,System.Object)">
+            <summary>
+            Determine if an adjustment on a Post Sale Quote has been modified compared to the origional contract
+            </summary>
+            <param name="contractAdjustmentId">Contract adjustment Id</param>
+            <param name="postSaleQuoteAdjustmentId">Post Sale Quote adjustment Id</param>
+            <returns>Boolean - True if modified; false otherwise</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.AddCustomChangeOrderOption(System.Object,System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus)">
+            <summary>
+            This function will add Change Orders records
+            </summary>
+            <param name="opportunityProductId">Opportunity ProductId</param>
+            <param name="changeOrderId">Change order Id</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="changeOrderStatus">boolean value</param>
+            <returns>
+            True or False</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.SendEmailNotification(System.Object)">
+            <summary>
+            Sends out email notification to the employees where the change order notification is set to true
+            </summary>
+            <returns>Boolean - True if email was sent out successfully; false otherwise</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.IsThereBuiltOptionChange(System.Object)">
+            <summary>
+            Check if there is a built option change in the Post Sale Quote
+            </summary>
+            <param name="postSaleQuoteId">Post Sale Quote Id</param>
+            <returns>string - "" if no built option changed (added, removed, edited)
+                            - specifiy which built option changed
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            HB5.9          4/25/2007      JWang     Initial version
+            5.9.0.0        5/22/2007      ML        options using Post Cut-Off Price should not be considered as built
+                                                    unless it is explicitly set to built
+            HB5.9          7/16/2007      JWang     Check the counterpart option in original contract to see if it is Built.
+            </history>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.RldtLangDict">
+            <summary>
+            Language Dictionary
+            </summary>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityPostSaleQuote.RSysSystem">
+            <summary>
+            System
+            </summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus">
+            <summary>
+            Options for Change Order Status.
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus.Selected">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus.Unselected">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus.Changed">
+            <summary></summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.UnitOfMeasure">
+            <summary>
+            Unit of Measure
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.UnitOfMeasure.Each">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.UnitOfMeasure.Square_Feet">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.UnitOfMeasure.Linear_Feet">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.UnitOfMeasure.Square_Yards">
+            <summary></summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OptionSelectionSource">
+            <summary>
+            Option Selection Source
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OptionSelectionSource.Pivotal">
+            <summary>
+            Pivotal is the source of option seletion
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OptionSelectionSource.Envision">
+            <summary>
+            Envision is the source of option selection
+            </summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic.Add">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic.Remove">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderLogic.Change">
+            <summary></summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason.NoReason">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason.PlanChange">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason.OptionChange">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason.ConvertToSale">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason.NewInventoryQuote">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason.PostBuildAccept">
+            <summary></summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.StandardOptionPricing">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.StandardOptionPricing.Fixed">
+            <summary></summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.StandardOptionPricing.Floating">
+            <summary></summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity">
+            <summary>
+            This module provides all the business rules for the Opportunity object.
+            This object is used to record the pipeline stage and status of the opportunity,
+            create a new activity for this opportunity, create an alert to notify other staff of
+            important information about this opportunity, launch a sales plan, etc.
+            </summary>
+            <history>
+            Revision #   Date          Author   Description
+            3.8.0.0  5/12/2006  DYin   Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.AddFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            This function Saves new opportunity form data to the database.
+            </summary>
+            <param name="pForm">IRForm reference to the current form</param>
+            <param name="Recordsets">Variant array of recordsets of Opportunity form data</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer
+            User Def 1 - State of reset team member
+            User Def 2 - State of apply milestone
+            User Def 3 - State of quota period
+            </param>
+            <returns>Opportunity Id</returns>
+            <history>
+            Revision #   Date           Author      Description
+            3.8.0.0      5/12/2006      DYin        Converted to .Net C# code.
+            5.9.0.0     July/04/2007    YK          Bypassing the Plan_Has_Standard flag.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.DeleteFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            This subroutine takes the Id of an opportunity, deletes the records from its secondary tables and deletes 
+            the opportunity.
+            </summary>
+            <param name="pForm">IRForm reference to the current form</param>
+            <param name="RecordId">Record Id for Opportunity</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer</param>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            5.9            5/21/2007      JH       This function is deprecated in 5.9.
+            5.9            5/28/2007      JWang    As per Amita, the code is resumed.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.Execute(Pivotal.Interop.RDALib.IRForm,System.String,System.Object@)">
+            <summary>
+            This subroutine executes a specified method.
+            </summary>
+            <param name="pForm">IRForm object references to the client IRForm object</param>
+            <param name="MethodName">Method name to be executed</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer</param>
+            <history>
+            Reversion#    Date        Author  Description
+            HB 3.6        10/14/2005  TL       Added GetOptionPrice Call
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.LoadFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            This function loads opportunity form data from the database.
+            </summary>
+            <param name="pForm">IRForm reference to the current active form</param>
+            <param name="RecordId">Record Id of opportunity</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer
+            User Def 1 - Recordset for Alert</param>
+            <returns>Variant array of recordsets of opportunity form data</returns>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            HB 3.6         09/09/2005     TL       Added required categories check and setting of the completeness flag
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.NewFormData(Pivotal.Interop.RDALib.IRForm,System.Object@)">
+            <summary>
+            This function gets new opportunity form data from the database.
+            </summary>
+            <param name="pForm">IRForm reference to the current form</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer</param>
+            <returns>Variant array of recordsets of Opportunity</returns>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            HB
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.NewSecondaryData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@,Pivotal.Interop.ADODBLib.Recordset@)">
+            <summary>
+            This subroutine adds a new record to a given secondary.
+            </summary>
+            <param name="pForm">IRForm reference to the current active form.</param>
+            <param name="SecondaryName">Secondary Name for Opportunity form</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer and from the 
+            AppServer to client</param>
+            <param name="Recordset">Variant array of recordsets of Opportunity form data</param>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SaveFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            This subroutine saves opportunity form data to the database.
+            </summary>
+            <param name="pForm">IRForm reference to the current active form</param>
+            <param name="Recordsets">Variant array of recordsets of Opportunity form data</param>
+            <param name="ParameterList">Transit Point Parameters passed from client to the AppServer
+            User Def 1 - State of Quota Period</param>
+            <history>
+            Revision       Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            5.9            04/05/2007     JH          Fixed 65536-16245.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SetSystem(Pivotal.Interop.RDALib.RSystem)">
+            <summary>
+            This subroutine sets the Active Client System.
+            </summary>
+            <returns>None
+            Implements Agent: None</returns>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.AddChangeOrders(System.Object[],System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.ChangeOrderStatus)">
+            <summary>
+            This function will add Change Orders records
+            </summary>
+            <param name="neighborhoodPhaseProductIdArray">the Neighborhood Id record</param>
+            <param name="changeOrderId">the change order Id</param>
+            <param name="opportunityId">the opportunity Id</param>
+            <param name="changeOrderStatus">enumerator ChangeOrderStatus</param>
+            <returns>
+            True or False</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.BatchUpdateQuoteExpiry">
+            <summary>
+            This function gets the Lender for the Loan Officer
+            </summary>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CalculateTotals(System.Object)">
+            <summary>
+            Overloaded method will calculate totals for the gived Opportunity and at the same time recalculate the adjustment.
+            Also, for each adjustment on the quote redo the sum field. 
+            </summary>
+            <param name="opportunityId">opportunity Id</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CalculateTotals(System.Object,System.Boolean)">
+            <summary>
+            This method will calculate totals for the gived Opportunity and at the same time recalculate the adjustment.
+            Also, for each adjustment on the quote redo the sum field.
+            </summary>
+            <param name="opportunityId">opportunity Id</param>
+            <param name="resetQuote">Flag to indicate whether reset quote or not.</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyQuote(System.Object,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Create a copy of the given Quote record
+            </summary>
+            <param name="quoteOpportunityId">the quote id</param>
+            <param name="copyPlan">Flag to determine whether to assign the plan/options or not</param>
+            <param name="copyContract">boolean to determine if this is a Contract</param>
+            <param name="copyPostSaleQuote">boolean to determine if this is a Post Sale Quote</param>
+            <returns>A variant containing the newly created quote</returns>
+            <history>
+            Revision#    Date        Author   Description
+            3.8.0.0      5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyQuote(System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Create a copy of the given Quote record
+            </summary>
+            <param name="quoteOpportunityId">the quote id</param>
+            <param name="copyPlan">Flag to determine whether to assign the plan/options or not</param>
+            <param name="copyContract">boolean to determine if this is a Contract</param>
+            <param name="copyPostSaleQuote">boolean to determine if this is a Post Sale Quote</param>
+            <param name="transferContract">Boolean flag to indicate if transfer contract or not</param>
+            <returns>A variant containing the newly created quote</returns>
+            <history>
+            Revision#    Date        Author   Description
+            3.8.0.0      5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateLotStatus(System.Object,System.Object)">
+            <summary>
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteChosenElevation(System.Object,System.Object)">
+            <summary>
+            This function will update the Quote's chosen elevation when Elevation option changed.
+            </summary>
+            <param name="quoteOpportunityId">Quote Id</param>
+            <param name="newElevationNeighborhoodPhaseProductId">New elevation Neighborhood Phase Product Id</param>
+            <returns>None</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.InventoryQuoteSearch(System.String,Pivotal.Interop.ADODBLib.Recordset)">
+            <summary>
+            Called by the Inventory Quote Search business object. To search any combination of the
+            fields based on the HB Inventory Quote Search form.
+            </summary>
+            <param name="formName">Contact search form name</param>
+            <param name="quoteRecordset">Recordset holds the contact search information</param>
+            <returns>Inventory quote recordset.</returns>
+            <history>
+            Revision #  Date        Author  Description
+            3.8.0.0     5/12/2006   DYin    Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.OpportunityCascadeDelete(System.Object)">
+            <summary>
+            This subroutine takes the Id of an Opportunity, and offers the
+            </summary>
+            user the choice of deleting the associated table records.
+            <returns>None
+            Implements Agent: Sys\Form\Opportunity\OnDelete</returns>
+            <history>
+            Revision#       Date           Author   Description
+            3.8.0.0         5/12/2006      DYin     Converted to .Net C# code.
+            HB  3.7        01/31/2006      AV    Removed unused code, this is not complete
+            5.9             5/21/2007      JH       This function is deprecated in 5.9.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SelectMultipleOptions(Pivotal.Interop.ADODBLib.Recordset,System.Object)">
+            <summary>
+            Review the Passed in Record Set passed, set quantity to 1 for any selected and check elevation rule.
+            </summary>
+            <param name="optionRecordset">Option recordset.</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SelectMultipleOptions(Pivotal.Interop.ADODBLib.Recordset,System.Object,System.Object)">
+            <summary>
+            Review the Passed in Record Set passed, set quantity to 1 for any selected and check elevation rule.
+            </summary>
+            <param name="optionRecordset">Option recordset.</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="changeOrderId">Change Order Id</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SelectUnselectOptions(System.Object,System.Object,System.Object,System.Boolean)">
+            <summary>
+            This subroutine toggles the products between select and unselect, sets availability flag on unselected 
+            options, adds Change Orders and recalculates the adjustment.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param>
+            <param name="selected">Flag value true or false</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SelectUnselectOptions(System.Object,System.Object,System.Object,System.Boolean,System.Object)">
+            <summary>
+            This subroutine toggles the products between select and unselect, sets availability flag on unselected 
+            options, adds Change Orders and recalculates the adjustment.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param>
+            <param name="selected">Flag value true or false</param>
+            <param name="changeOrderId">Change Order Id</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SelectUnselectOptions(System.Object,System.Object,System.Object,System.Boolean,System.Object,System.Int32)">
+            <summary>
+            This subroutine toggles the products between select and unselect, sets availability flag on unselected 
+            options, adds Change Orders and recalculates the adjustment.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param>
+            <param name="selected">Flag value true or false</param>
+            <param name="changeOrderId">Change Order Id</param>
+            <param name="quantity">quantity</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SelectUnselectOptions(System.Object,System.Object,System.Object,System.Boolean,System.Object,System.Int32,System.String,System.String)">
+            <summary>
+            This subroutine toggles the products between select and unselect,
+            sets availability flag on unselected options, adds Change Orders and
+            recalculates the adjustment
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param>
+            <param name="selected">Flag value true or false</param>
+            <param name="changeOrderId">Change Order Id</param>
+            <param name="quantity">quantity</param>
+            <param name="newOption">mulitple use string that is used in elevation and rules checks</param>
+            <param name="newOptionWithParents">Multiple use string used for rule checks with the following implementation:
+            "Parent:Division_Product_Id,Child:NBHDP_Product_Id;"</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            5.9.0.0        2/20/2007     YK         Changed as per HB r5.9 release guidelines.
+            5.9.0.0        1/3/2007      BC         Changed the code to handle the Package Type
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateChildOpportunityProducts(System.Object,System.Boolean)">
+            <summary>
+            This function updates the child opportunity products with selected flag
+            </summary>
+            <param name="vntOpportunityProductId">Opportunity Product Id</param>
+            <param name="blnSelected">Flag value true or false</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            5.9.0.0        1/3/2007      BC         Updates the Child Opp Produts
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.LoadNeighborhoodProducts(System.Object[],System.String,System.Int32@,System.Int32@)">
+            <summary>
+            Load Additional NBHDP_Product Value
+            </summary>
+            <param name="recordsetArray"></param>
+            <param name="code"></param>
+            <param name="page"></param>
+            <param name="pageCount"></param>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            5.9.0.0        3/26/2007      YK       Made changes as per HB r5.9 release guidelines.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.LoadExcludedProducts(System.Object,System.Object,System.Object,System.Object,Pivotal.Interop.ADODBLib.Recordset)">
+            <summary>
+            Loads the excluded recordset on the selected options page.
+            </summary>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            5.9.0.0        Mar/06/2007     YK      Added the commented code for the exclusion enhancement to 
+                                                   to view all the records which will get excluded due to the
+                                                   prioirty (WC_Level_With_Plan) code at each NBHDP_Product level
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetWildcardSql(System.Object,System.Object,System.Object,System.Object,System.Boolean,System.String,System.Boolean)">
+            <summary>
+            Get the Available Options Based on the Parameters PAssed in
+            </summary>
+            <param name="releaseId">Release Id </param>
+            <param name="neighborhoodId">NEighborhood for WildCard</param>
+            <param name="opportunityId">Opportunity to Exclude Options from.</param>
+            <param name="planId">Plan Id</param>
+            <param name="standard">Get ONLY standard Options</param>
+            <param name="code">Code </param>
+            <param name="excluded">Flag to indicate</param>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            5.9.0.0        3/26/2007      YK       Changed a lot depending upon the HB r5.9 requirements.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CreateOpportunityProductStandard(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Add the Standard Options to the Opportunity Product
+            </summary>
+            <param name="releaseId">Release Id</param>
+            <param name="neighborhoodId">Neighborhood Id</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="planId">Plan Id</param>
+            <history>
+            Revision       Date           Author   Description
+            3.8.0.0        5/12/2006      DYin     Converted to .Net C# code.
+            5.9.0.0        3/26/2007      YK       Changed the code to accomodate the selection of the most appropriate
+                                                   Product Configuration record depending upon the priority. Further
+                                                   there was a bug in the system, that if the same product has multiple
+                                                   "Standard" product Configuration records, all of them were getting
+                                                   added. Have fixed this as well due to the above mentioned implementation.
+            5.9.0.0        7/04/2007      YK       Changed the Implementation. 
+                                                   1) Previously the query returned all Stnadard options from which
+                                                      the most appropriate (Priority) options was chosen. 
+                                                      Now, first the appropriate rules are identified from the set
+                                                      of available optisn, and then which ever is "Standard" out
+                                                      of them are appended to the Quote.
+                                                   2) Previously we were using a Custom SQL to get the resultset. 
+                                                      Now we are getting it through a Pivotal Query.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetStandardWithRules(Pivotal.Interop.ADODBLib.Recordset,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            This subroutine Applys the rules to the set of Standard Options.
+            </summary>
+            <param name="rstRecordset">Recordset with the Initial set of Standard Options</param>
+            <param name="vntRegionId">Region Id of the Opportunity</param>
+            <param name="vntDivisionId">Division Id</param>
+            <param name="vntNeighborhoodId">Neighborhood Id</param>
+            <param name="vntReleaseId">Release Id</param>
+            <param name="vntPlanDivProdId">Plan's Division Product Id</param>
+            <param name="vntPlanId">Plan's Product Configuration Id</param>        
+            <returns>Final recordset with all the elements which needs to be added as Standard options to a Quote</returns>
+            <history>
+            Revision#      Date          Author     Description
+            5.9.0.0        Jul/05/2007     YK       Initial Version
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuantity(System.Object,System.Object)">
+            <summary>
+            This subroutine gets the quantity based on the location area and unit of measurement
+            </summary>
+            <param name="vntOpportunityId">Opportunity Id</param> 
+            <param name="vntNBHDDivisionProductId">Neighborhood Product Id</param> 
+            <returns>New Opportunity product option Id</returns>
+            <history>
+            Revision#      Date          Author     Description
+            5.9.0.0        3/30/2007     BC         For Quantity using the Unit of Measurement
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CreateOpportunityProductOption(System.Object,System.Object,Pivotal.Interop.ADODBLib.Recordset)">
+            <summary>
+            This subroutine creates a new Option in the Opportunity Product Table Based on the Passed in NBHD Phase
+            Product
+            </summary>
+            <param name="opportunityId">Opportunity Id</param> 
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param> 
+            <param name="neighborhoodPhaseProductRecordset">Neighborhood Product recordset</param> 
+            <returns>New Opportunity product option Id</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            5.9.0.0        3/30/2007     BC         For Quantity using the Unit of Measurement
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CreateOpportunityProductOption(System.Object,System.Object,Pivotal.Interop.ADODBLib.Recordset,System.Int32)">
+            <summary>
+            This subroutine creates a new Option in the Opportunity Product Table Based on the Passed in NBHD Phase
+            Product
+            </summary>
+            <param name="opportunityId">Opportunity Id</param> 
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param> 
+            <param name="neighborhoodPhaseProductRecordset">Neighborhood Product recordset</param> 
+            <param name="quantity">Quantity</param> 
+            <returns>New Opportunity product option Id</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CreateOpportunityProductOption(System.Object,System.Object,Pivotal.Interop.ADODBLib.Recordset,System.Int32,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OptionSelectionSource,System.DateTime,System.Object@,System.Object@)">
+            <summary>
+            This subroutine creates a new Option in the Opportunity Product Table Based on the Passed in NBHD Phase
+            Product
+            </summary>
+            <param name="opportunityId">Opportunity Id</param> 
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param> 
+            <param name="neighborhoodPhaseProductRecordset">Neighborhood Product recordset</param> 
+            <param name="quantity">Quantity</param> 
+            <param name="optionSelectionSource">option selection source</param> 
+            <param name="transactionDatetime">transactionDatetime</param> 
+            <param name="newOppProductId">newOppProductId</param> 
+            <param name="newOppProdLocId">newOppProdLocId</param> 
+            <returns>New Opportunity product option Id</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            5.9.0.0        2/24/2007     BC         Changed the code to copy the Package Component to Opp Product Table
+            5.9.0.0        5/21/2007     ML         Issue#65536-19187
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CreateOpportunityProductPackage(System.Object,System.Object)">
+            <summary>
+            This subroutine creates the Opportunity Product Record for the given package
+            </summary>
+            <param name="vntParentDivisionProductId">Parent Division Product Id</param>
+            <param name="vntParentOppProductId"> Parent Opportunity Divison Product Id</param>
+            <returns>Returns string containing an error message.</returns>
+            <history>
+            Revision#      Date          Author    Description
+            5.9.0.0        24/02/2007     BC      Create Opp Product for Package.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyOpportunityProductPackageComponents(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            This subroutine Copies the Opportunity Product Record
+            </summary>
+            <param name="vntSourceOppProductPackId"> Source Opp package Id</param>
+            <param name="vntSourceOppProductPackLocId"> Source Opp Pack Loc Id</param>
+            <param name="vntTargetOppProductPackId"> Target package Id</param>
+            <param name="vntTargetOppProductPackLocId"> Target Opp Pack Loc Id</param>
+            <returns>Returns string containing an error message.</returns>
+            <history>
+            Revision#      Date          Author    Description
+            5.9.0.0        9/4/2007      BC        Copies the Pacakge Components
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetSelectedExcludedOptions(System.Object,System.Object,System.Object,System.String,System.String)">
+            <summary>
+            This subroutine gets the Selected Excluded options. If any are found, an error
+            message is returned
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="neighborhoodPhaseProductId"></param>
+            <param name="planNameId"></param>
+            <param name="newOption">Contains string id's of current additions in a multi select</param>
+            <param name="newOptionWithParent">Multiple use string used for rule checks with the following implementation:
+            "Parent:Division_Product_Id,Child:NBHDP_Product_Id;"</param>
+            <returns>Returns string containing an error message.</returns>
+            <history>
+            Revision#      Date          Author    Description
+            3.8.0.0        5/12/2006     DYin      Converted to .Net C# code.
+            5.9.0.0        Feb/09/2007    YK       Inclorporated the Product_Option_Rule related changes
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateOptionFilter(System.Object,System.Object,System.Object,System.Object,System.String,System.Boolean,System.String,System.Int32,System.Object)">
+            <summary>
+            This subroutine will Simply Save the Opportunity Filter Fields
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="categoryId">Category Id</param>
+            <param name="constructionStageId">Construction Stage Id</param>
+            <param name="locationId">Location Id</param>
+            <param name="manufacturer">Manufacturer Id</param>
+            <param name="constructionStageOnly">Flag to indicate the filter is only for constrction stage.</param>
+            <param name="code">Code</param>
+            <param name="currentPage"></param>
+            <param name="subCategoryId">Sub Category Id</param>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            5.9.0.0        Jan/24/2007   YK         Added Filter_Sub_Category
+            comparing Ids. This is a specific request for DR Horton only.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetParentOptions(System.Object,System.Object,System.Object)">
+            <summary>
+            This subroutine gets the parent options for the product used when unselecting an option, also unselect all 
+            the included parent options
+            </summary>
+            <param name="neighborhoodPhaseProductId">Neighborhood Pahse Product Id</param>
+            <param name="planNameId">Plan Name Id</param>
+            <param name="originalProductId">Original Product Id</param>
+            <returns>strMsg</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            5.9.0.0        3/22/2007     YK         Hard Rule + Plan specific Option rules Vs generic Option Rules
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetChildOptions(System.Object,System.Object,System.Object,System.Boolean)">
+            <summary>
+            This subroutine gets the children options for the product.
+            </summary>
+            <param name="neighborhoodPhaseProductId">Neighborhood Pahse Product Id</param>
+            <param name="planNameId">Plan Name Id</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="isSoftRule">True = Soft Inclusion else Hard Inclusion.</param>
+            <returns>strMsg</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            5.9.0.0        Feb/09/2007    YK        Implementing changes for Soft/Hard Inclusion and also
+                                                    due to moving the Rules one level up to Product Defn level.
+            5.9.00         Mar/05/2007    YK        Changing due to the Construction Stages + Post Cut Off Price
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateOptions(System.Object)">
+            <summary>
+            This method is called when a user changes the Neighborhood, Release,
+            Plan or Homesite on the Quote. And depending on what type of quote it is, the code
+            handles each scenrio and finally recalulates the total on the quote.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetNextChangeOrderNumber(System.Object)">
+            <summary>
+            This method retrieves the next sequential change order number
+            for the specified opportunity
+            </summary>
+            <param name="opportunityId">the OpportunityId</param>
+            <returns>The next sequential change order number</returns>
+            <history>
+            Revision#      Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.ConvertToSale(System.Object)">
+            <summary>
+            Overloaded method to convert a quote to a contract.  A Quote's division then on Convert to Sale then 
+            Create a function Appserver Rule in the Contact NBHD Profile Dll to update the profiles
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.ConvertToSale(System.Object,System.Boolean)">
+            <summary>
+            This routine will convert a quote to a contract.  A Quote's division then on Convert to Sale then Create a
+            function Appserver Rule in the Contact NBHD Profile Dll to update the profiles
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="finishConvert">Flag to indicate whether </param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckBuyerIsGlobalStage(System.Object)">
+            <summary>
+            This method will check if Buyer As a Global Stage flag is set for this quote's (opportunity) division
+            </summary>
+            <param name="opportunityId">OpportunityId</param>
+            <returns>true or false</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckCompleteness(System.Object)">
+            <summary>
+            This method will check if there are any missing categories for Plan and Opportunity
+            </summary>
+            <param name="opportunityId">OpportunityId</param>
+            <returns>Flag to indicate if pass the completeness checking.</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckCompleteness(System.Object,System.String@)">
+            <summary>
+            This method will check if there are any missing categories for Plan and Opportunity
+            </summary>
+            <param name="opportunityId">OpportunityId</param>
+            <param name="outMessage">Out message</param>
+            <returns>Flag to indicate if pass the completeness checking.</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.VerifyBuiltOptions(System.Object,System.Object,System.String@)">
+            <summary>
+            This method will check for missing Built Options for Opportunity
+            </summary>
+            <param name="opportunityId">the OpportunityId</param>
+            <param name="lotId">Homesite Id</param>
+            <param name="outMessage">output message</param>
+            <returns>true or false</returns> 
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateContactBuyer(System.Object,System.DateTime)">
+            <summary>
+            Get the Contact_Release record, set the Type=Buyer and set the Sale_Date = Opportunity.Actual_Dec_Date
+            </summary>
+            <param name="contactId">Updated Contact Record</param>
+            <param name="saleDate">The Actual Decision Date from the Opportunity</param>
+            <history>
+            Revision#    Date        Author  Description
+            3.8.0.0      5/12/2006   DYin    Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateContactType(System.Object,System.String)">
+            <summary>
+            Updates the type of the contact.
+            Used when cancelling a contract
+            </summary>
+            <param name="contactId">Updated Contact Record</param>
+            <param name="type">The new status of the contact</param>
+            <history>
+            Revision#    Date        Author  Description
+            3.8.0.0      5/12/2006   DYin    Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SetBaseConfiguration(System.Object)">
+            <summary>
+            Update all Oppoortunity Product records for Opportunity w Base Config = TRUE
+            </summary>
+            <param name="opportunityId">Target Opportunity Id</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SendSimpleMail(System.String,System.String,System.String)">
+            <summary>
+            Sends Simple Mail
+            </summary>
+            <param name="toList">To recipients list</param>
+            <param name="subject">Email subject</param>
+            <param name="body">Email body</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CloseCancelOpportunity(System.Object)">
+            <summary>
+            Update all Opportunities when the cancelled date is set
+            </summary>
+            <param name="opportunityId">Target Opportunity Id</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.MoveLotToInventory(System.Object)">
+            <summary>
+            This routine will reset the Lot to Available
+            </summary>
+            <param name="lotId">the Lot to be reset</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateLotStatusClosed(System.Object)">
+            <summary>
+            Update the Lot Site Status to Closed
+            </summary>
+            <param name="lotId">The Lot Id to be updated.</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#    Date        Author   Description
+            3.8.0.0      5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckLastLotClosed(System.Object)">
+            <summary>
+            Updates the Phase (Release) if all lots are 'Closed'
+            </summary>
+            <param name="releaseId">the release Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CanBeDeleted(System.String,System.Object,System.String@)">
+            <summary>
+            This function checks to see if the form has the indicated secondaries.
+            </summary>
+            <param name="formName">Form name</param>
+            <param name="recordId">Record Id</param>
+            <param name="infoMessage">Out infomation message</param>
+            <returns>True if the form has no children. False if the form has children</returns>
+            <history>
+            Revision # Date            Author  Description
+            3.8.0.0  5/12/2006         DYin    Converted to .Net C# code
+            5.9      5/21/2007         JH      This function is deprecated in 5.9.     
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CreateInventoryQuoteFromContract(System.Object)">
+            <summary>
+            Create an Inventory quote from a Contract
+            </summary>
+            <param name="contractOpportunityId">The contract id</param>
+            <returns>a variant containing the newly created quote</returns>
+            <history>
+            Revision#    Date        Author   Description
+            3.8.0.0      5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyQuoteSecondary(System.Object,System.Object,System.String,System.String,System.Object)">
+            <summary>
+            Copy A quote secondary
+            </summary>
+            <param name="sourceQuoteOpportunityId">The original quote id</param>
+            <param name="targetQuoteOpportunityId">The new quote id</param>
+            <param name="linkFieldName">The field we are linking to - this should always be oppId, but is here for
+            further enhancibility</param>
+            <param name="tableName">the name of the new secondary table</param>
+            <param name="mainId">the main id of the new secondary (e.g. if the table is opp_team, then the main
+            id would be opp_team_id). This allows us to copy all of the fields and ignore
+            the rn_ fields and the main id field (the 6 fields that Relationship creates)</param>
+            <returns>A boolean - true if the function created the secondaries properly, false otherwise</returns>
+            <history>
+            Revision# Date Author Description
+            3.8.0.0   5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyQuoteSecondary(System.Object,System.Object,System.String,System.String,System.Object,System.Boolean)">
+            <summary>
+            Copy A quote secondary
+            </summary>
+            <param name="sourceQuoteOpportunityId">The original quote id</param>
+            <param name="targetQuoteOpportunityId">The new quote id</param>
+            <param name="linkFieldName">The field we are linking to - this should always be oppId, but is here for
+            further enhancibility</param>
+            <param name="tableName">the name of the new secondary table</param>
+            <param name="mainId">the main id of the new secondary (e.g. if the table is opp_team, then the main
+            id would be opp_team_id). This allows us to copy all of the fields and ignore
+            the rn_ fields and the main id field (the 6 fields that Relationship creates)</param>
+            <param name="postSaleQuote">flag to indicate a Post Sale Quote</param>
+            <returns>A boolean - true if the function created the secondaries properly, false otherwise</returns>
+            <history>
+            Revision# Date Author Description
+            3.8.0.0   5/12/2006  DYin  Converted to .Net C# code.
+            5.9.0.0   9/4/2007   BC    COpy of Packages
+            5.9.0.0   july/31/07  ML       Issue#65536-20113 and #65536-20115
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CancelContract(System.Object,System.Boolean)">
+            <summary>
+            This function will cancel an existing contract
+            </summary>
+            <param name="opportunityId">the opportunity Id</param>
+            <param name="sameLot">true or false</param>
+            <returns>Flag to indicate whether cancel the contract.</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyOptionSecondary(System.Object,System.Object)">
+            <summary>
+            Copy Secondaries for a opportunity product
+            </summary>
+            <param name="sourceOpportunityId">The original quote id</param>
+            <param name="targetOpportunityId">The new oportunity Id</param>
+            <returns>a boolean - true if the function created the secondaries properly, false otherwise</returns>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetNumberOfNonQuotes(System.Object)">
+            <summary>
+            Get the number of quotes where the pipeline stage is not equal to quote
+            </summary>
+            <param name="lotId">the Lot id</param>
+            <returns>
+            GetNumberOfNonQuotes - integer value</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            when the Status or Pipeline_Stage field is null.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SetQuotesToNotPursued(System.Object,System.Object)">
+            <summary>
+            Set all of the quotes for this lot to a status of Not Pursued whenvever a quote becomes contract
+            </summary>
+            <param name="lotId">the Lot id</param>
+            <param name="opportunityId">this opportunity - so that we don't over-write it's status</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SetSalesTeam(System.Object,System.Object)">
+            <summary>
+            This method gets the next price for an option, if there is one else the current price is used.
+            </summary>
+            <param name="releaseId">ReleaseId</param>
+            <param name="opportunityId">the OpportunityId</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateOpportunitySalesTeam(System.Object,System.Object,System.Object,System.Boolean)">
+            <summary>
+            Adds a new employee to the opportunity sales team or activates the employee, if already on the sales team
+            </summary>
+            <remarks>       
+            1) if not (the new member already exists in the sales team) then
+            add the new member to the sales team
+            end if
+            2) define the role_id for the new member
+            </remarks>
+            <param name="employeeId">The employee to be added to the sales team</param>
+            <param name="roleId">Role Id</param>
+            <param name="opportunityId">the Opportunity, the employee should be added to</param>
+            <param name="checkExistence">do a check to see if member already present</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyNeighborhoodAgreementToOpportunityAgreement(System.Object,System.Object)">
+            <summary>
+            This method copies the nbhd agreement's info to the opp agreements
+            </summary>
+            <param name="opportunityId">the OpportunityId</param>
+            <param name="releaseId">the Neighbourhood id</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.AddInventoryQuoteOptions(System.Object,System.Object)">
+            <summary>
+            Called from SaveData. It determines the inventory quote record associated with the inventory lot
+            and then calls the shared function that will copy the secondary product data
+            </summary>
+            <param name="quoteOpportunityId">the OpportunityId</param>
+            <param name="lotId">Lot id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetTransferableLotList(System.Object)">
+            <summary>
+            This function gets Lots for a given Release that a Contract can be transfered to
+            Inputs :
+            releaseId - Release Id
+            </summary>
+            <returns>
+            Recordset of Lots</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckPlan(System.Object,System.Object)">
+            <summary>
+            Check if the Plan is excluded on the current Lot
+            </summary>
+            <param name="lotId">The Lot Id</param>
+            <param name="planNameId">The plan Id</param>
+            <returns>
+            True or False</returns>
+            <history>
+            Revision#    Date        Author   Description
+            3.8.0.0      5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteOnPlanChange(System.Object,System.Object,System.Boolean,System.Object,System.Object)">
+            <summary>
+            This function will update the Quote record when the Plan selection is changed.
+            </summary>
+            <param name="quoteOpportunityId">Quote opportunity Id </param>
+            <param name="planNameId">Plan Name Id</param>
+            <param name="releaseChange">indicates additional fields need to be cleared</param>
+            <param name="neighborhoodPhaseId">Neighborhood Phase Id</param>
+            <param name="lotId">Lot Id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteOnPlanChange(System.Object,System.Object,System.Boolean,System.Object,System.Object,System.Object)">
+            <summary>
+            This function will update the Quote record when the Plan selection is changed.
+            </summary>
+            <param name="quoteOpportunityId">Quote opportunity Id </param>
+            <param name="planNameId">Plan Name Id</param>
+            <param name="releaseChange">indicates additional fields need to be cleared</param>
+            <param name="neighborhoodPhaseId">Neighborhood Phase Id</param>
+            <param name="lotId">Lot Id</param>
+            <param name="neighborhoodId">neighborhoodId  (Optional)</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.TransferContract(System.Object,System.Object,System.Object,System.Boolean,System.Boolean)">
+            <summary>
+            This function will start the contract transfer process
+            </summary>
+            <param name="quoteOpportunityId">the Quote Id</param>
+            <param name="lotId">the Lot Id</param>
+            <param name="planNameId">the Plan Id</param>
+            <param name="samePlan">boolean to identify Plan change</param>
+            <param name="sameLot">boolean to identify Lot change</param>
+            <returns>
+            a variant containing the newly created quote</returns>
+            <history>
+            Revision#    Date        Author   Description
+            3.8.0.0      5/12/2006   DYin     Converted to .Net C# code.
+            5.9.0.0      Apr/12/2007 ML       Issue #65536-18916
+                                              The new Lot was not getting updated  
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetAvailablePlans(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            This function gets all available Plans for a Lot
+            Inputs :
+            releaseId - Release Id
+            quoteOpportunityId - the Quote Id
+            neighborhoodId - neighborhood Id
+            vntLotId - the current lot id
+            </summary>
+            <returns>Recordset containing available plans</returns>
+            <history>
+            Recordset of Plans
+            Revision#  Date         Author  Description
+            3.8.0.0    5/12/2006    DYin    Converted to .Net C# code.
+            5.9.0.0    Apr/10/2007  ML      Issue #65536-18672 changed the query 
+                                            to give most specific plans.
+                                            added one more parameter for Lot Id
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SetOptionPricing(System.Object)">
+            <summary>
+            Updates price related fields for the passed id, dependent on quereied criteria
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author     Description
+            3.8.0.0    5/12/2006   DYin       Converted to .Net C# code.
+            5.9.0.0    13/02/2007  ML         Changes for post cut-off price
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetOptionNextPrice(System.Object,System.Boolean)">
+            <summary>
+            This method gets the next post cut-off price for an option
+            </summary>
+            <returns>dblNewPostCutOffPrice - the next post cut-off price</returns>
+            <history>
+            Revision       Date           Author    Description
+            5.9.0.0        2/09/2007      ML        Initial version
+            5.9.0.0        03/15/2007     BC        Sorting order for date is set to ascending
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetOptionNextPrice(System.Object)">
+            <summary>
+            This method gets the next price for an option
+            </summary>
+            <returns>dblPrice - the next price</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetOptionFixedPrice(System.Object,System.DateTime)">
+            <summary>
+            This method gets the fixed price for an option
+            </summary>
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param>
+            <param name="optionPriceDate">the fixed price date</param>
+            <returns>The fixed proce for the option.</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetOptionFixedPrice(System.Object,System.DateTime,System.Boolean)">
+            <summary>
+            This method gets the fixed price for an option
+            </summary>
+            <param name="neighborhoodPhaseProductId">Neighborhood Product Id</param>
+            <param name="optionPriceDate">the fixed price date</param>
+            <param name="blnUsePCO">boolean field to check the PCO</param>
+            <returns>the Fixed Price including the PCO</returns>
+            <history>
+            Revision       Date           Author    Description
+            5.9.0.0        2/26/2007      BC        PCO Price Validation
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.OptionAmIBuilt(System.Object,System.Int32)">
+            <summary>
+            This function will check if the option is already buit
+            </summary>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="lotStageOrdinal">Lot Stage Ordinal</param>
+            <returns>True or False</returns>
+            <history>
+            Revision#  Date        Author     Description
+            3.8.0.0    5/12/2006   DYin       Converted to .Net C# code.
+            5.9.0.0    mar/12/2007 ML         changes to consider package components
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.OptionBuildMe(Pivotal.Interop.ADODBLib.Recordset,System.Boolean,System.Object)">
+            <summary>
+            Encapsulates logis for setting and unsetting an options built flag.  If an Elevation Option got built, 
+            then set the Lot's Built Elevation.
+            </summary>
+            <param name="optionRecordset">Option recordset</param>
+            <param name="built">new value for built flag</param>
+            <param name="lotId">Lot Id</param>
+            <returns>The blnBuilt flag back unchanged</returns>
+            <history>
+            Revision#  Date        Author     Description
+            3.8.0.0    5/12/2006   DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.HomesiteConstructionOrdinalPastPlanOne(System.Int32,System.Object)">
+            <summary>
+            Check if Homesite Construction Ordinal past Plan Construction Ordinal.
+            </summary>
+            <param name="lotStageOrdinal">Lot stage ordinal</param>
+            <param name="planId">PlanId of a quote or contract</param>
+            <returns>True -- Homesite Construction Ordinal past Plan Construction Ordinal
+            False -- Not past</returns>
+            <history>
+            Revision#      Date            Author          Description
+            3.8.0.0        5/12/2006       DYin            Converted to .Net C# code.
+            5.9.0.0        Apr/6/2007      ML              Issue#65536-18817
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteOptions(System.Object,System.Object)">
+            <summary>
+            When the Construction Stage on the lot ia changed, update the Construction Stage on all
+            quotes and update the built flag on all options on all quotes belonging to the lot.
+            This function also will check if the Lot's construction Stage Ordinal past Plan's one, so
+            the name is not proper anymore.
+            </summary>
+            <param name="lotId">Lot Id</param>
+            <param name="constructionStageId">Construction Stage Id</param>
+            <returns>True if its successful in updating everything False otherwise</returns>
+            <history>
+            Revision #   Date         Author   Description
+            5.9.0.0     28/Feb/2007    ML      Initial Version.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteOptions(System.Object,System.Object,System.Boolean)">
+            <summary>
+            When the Construction Stage on the lot ia changed, update the Construction Stage on all
+            quotes and update the built flag on all options on all quotes belonging to the lot.
+            This function also will check if the Lot's construction Stage Ordinal past Plan's one, so
+            the name is not proper anymore.
+            </summary>
+            <param name="lotId">Lot Id</param>
+            <param name="constructionStageId">Construction Stage Id</param>
+            <param name="blnUpdateAll">If = TRUE, Update all Options, else update which are not using the Post CutOff Price</param>
+            <returns>True if its successful in updating everything False otherwise</returns>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            5.9.0.0     28/Feb/2007   ML       Updated for the Post Cut Off Requirement.
+            5.9.0.0      10/Apr/2007  ML       Issue#65536-18822
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteOptionsSingleOption(System.Object,System.Object,System.Boolean)">
+            <summary>
+            When the Construction Stage on the lot ia changed, update the Construction Stage on all
+            quotes and update the built flag on all options on all quotes belonging to the lot
+            </summary>
+            <param name="lotId">Lot Id</param>
+            <param name="opportunityProductId">Opportunit Product Id</param>
+            <param name="builtValue">Flag to indicate whether build value or not</param>
+            <returns>True if its successful in updating everything False otherwise</returns> 
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetInventoryChangeNote(System.String,System.String,System.String)">
+            <summary>
+            Generates the note to be placed on the quote when inactivating because of an inventory change
+            </summary>
+            <param name="title">Title</param>
+            <param name="subject">Subjects</param>
+            <param name="data">Data for the note.</param>
+            <returns>note as string</returns>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetInventoryChangeNote(System.String,System.String[],System.String[])">
+            <summary>
+            Generates the note to be placed on the quote when inactivating because of an inventory change
+            </summary>
+            <param name="title">Title</param>
+            <param name="subjectArray">Array to contain subjects</param>
+            <param name="dataArray">Array to contains data for the note</param>
+            <returns>note as string</returns>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.InactivateCustomerQuotes(System.Object,System.Object)">
+            <summary>
+             Inactive customer's quotes with no reason.
+            </summary>
+            <param name="opportunityProductId">Opportunity Product id.</param>
+            <param name="opportunityId">Oppotunity Id</param>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.InactivateCustomerQuotes(System.Object,System.Object,CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.InactiveQuoteReason)">
+            <summary>
+             Inactive customer's quotes.
+            </summary>
+            <param name="opportunityProductId">Opportunity Product id.</param>
+            <param name="opportunityId">Oppotunity Id</param>
+            <param name="inactivateReason">Enumerator to indicate the inactive reason</param>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateCoBuyerStatus(System.Object,System.Boolean,System.Boolean)">
+            <summary>
+            When an Opportunity is saved, or when a Quote goes through a sale or cancellation, this is
+            called to update the cobuyer status.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="sale"> True if sale</param>
+            <param name="canceled"> True if contract is canceled</param>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            (Buyer type is not used for contact)
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.AddChangeCustomOrders(System.Object,System.Object,System.Object,System.Boolean)">
+            <summary>
+            This function will add Change Orders records
+            </summary>
+            <param name="opportunityProductId">the Opp Product Id record</param>
+            <param name="changeOrderId">the change order Id</param>
+            <param name="opportunityId">the opportunity Id</param>
+            <param name="selected">boolean value</param>
+            <returns>
+            True or False</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.ResetQuote(System.Object,System.String)">
+            <summary>
+            This method will re-calculate totals for the gived Opportunity, options and adjsustments totals
+            </summary>
+            <param name="quoteOpportunityId">Target Opportunity Id</param>
+            <param name="quoteStage">Quote stage</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.ResetContactCobuyerType(System.Object,System.Object)">
+            <summary>
+            This method will re-calculate totals for the gived Opportunity, options and adjsustments totals
+            </summary>
+            <param name="contactId">Contact Id</param>
+            <param name="opportunityId">Target Opportunity Id</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.InventoryManagementAllowedForCurrentUser">
+            <summary>
+            Checks whether a Construction stage can be inactivated i.e. it is not associated with any active division
+            products
+            </summary>
+            <returns>Inventory Management Allowed</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateReservationStatus(System.Object,System.Object,System.DateTime,System.Object,System.Object)">
+            <summary>
+            Calls other functions which take care of following:
+            Updation of "reservation date" in Contact Profile NBHD
+            Update Lot Status
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateContactProfileNeighborhood(System.Object,System.Object,System.Object)">
+            <summary>
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateContactProfileNeighborhood(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateLotStatusEx(System.Object,System.String)">
+            <summary>
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.BatchUpdateQuoteStatus">
+            <summary>
+            Updates status of quotes with current date
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateQuoteStatus(System.Object)">
+            <summary>
+            Updates status of quotes based on the reservation expiry date, also updates the Homesite
+            </summary>
+            associated with the quote and the Contact NBHD profile as well.
+            <param name="quoteOpportunityId">Quote current record id</param>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            5.9        3/13/2007   JH       Fixed issue 65536-17278.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckLotAvailability(System.Object)">
+            <summary>
+            Checks to see if the lot is Available when a user tries to reserve it.
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CanCopyQuote(System.String,System.String,System.Object,System.Object)">
+            <summary>
+            Check whether this quote can be copied or not
+            Rules:  Copy Quote button is available of shows up for:
+            Quotes (both Active and Inactive) with Pipeline Stage="Quote" AND
+            Status="In Progress" or "Reservation Expired" AND the Quote's Homesite's
+            status is "Available" or Quote's Lot is null AND the Neighborhood's
+            "Lot Required" flag is False (or Null)
+            </summary>
+            <returns>True if this quote can be copied
+            False if this quote cannot be copied</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetConstructionStageComparison">
+            <summary>
+            Checks the system table for the setting wheather greater than or greater than and eqal to
+            </summary>
+            <returns>String for construction stage comparison</returns>
+            <history>
+            Revision#  Date        Author   Description
+            3.8.0.0    5/12/2006   DYin     Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateHomesitePlan(System.Object,System.Object)">
+            <summary>
+            This routine will update Homesite's plan based on the plan of quote.
+            </summary>
+            <param name="lotId">Lot Id</param>
+            <param name="newPlanId">New Plan_Id value</param>
+            <history>
+            Revision # Date            Author  Description
+            3.8.0.0  5/12/2006  DYin   Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateHomesiteBuiltElevation(System.Object,System.Object)">
+            <summary>
+            This routine will update Homesite's Built Elevation with the NBHDP_Product_Id of Opportunity Product
+            </summary>
+            <param name="lotId">Lot id</param>
+            <param name="newNeighborhoodProductId">New NBHDP_Product_Id value</param>
+            <history>
+            Revision # Date            Author  Description
+            3.8.0.0  5/12/2006  DYin   Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdatePlanBuiltForActiveCustomerQuote(System.Object,System.Boolean)">
+            <summary>
+            This routine will update the plan built flag on any other active quote(s) with this Homesite
+            </summary>
+            <param name="lotId">Lot Id</param>
+            <param name="planBuilt">Plan Built flag</param>
+            <history>
+            Revision # Date            Author  Description
+            3.8.0.0  5/12/2006  DYin   Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateOptionBuilts(Pivotal.Interop.ADODBLib.Recordset,System.Object)">
+            <summary>
+            For each option on this quote, find any other options that match this criteria and
+            call UpdateOptionBuiltForActiveCustomerQuote function to update their build flag as well
+            </summary>
+            <param name="optionRecordset">Option secondary recordset in opportunity form</param>
+            <param name="lotId">Lot Id</param>
+            <history>
+            Revision # Date            Author  Description
+            3.8.0.0  5/12/2006  DYin   Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateOptionBuiltForActiveCustomerQuote(System.Object,System.Object,System.Boolean)">
+            <summary>
+            This routine will finds all the active options (match on NBHD Product) where the opp's homesite is same
+            as curr op's and update Option Built based on the Option Built of Inventory Quote.
+            </summary>
+            <param name="lotId">Lot Id</param>
+            <param name="neighborhoodPhaseProductId">NPHDP_Product_Id of the option</param>
+            <param name="optionBuilt">Option Built flag</param>
+            <returns>None</returns>
+            <history>
+            Revision # Date            Author  Description
+            3.8.0.0  5/12/2006  DYin   Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.ApplyDepositScheduleTemplates(System.Object,Pivotal.Interop.ADODBLib.Recordset)">
+            <summary>
+            Creates new deposit records for each selected template
+            </summary>
+            <param name="quoteOpportunityId">opportunity ID</param>
+            <param name="selectedDepositTemplateRecordset">recordset with selected templates</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CancelRequestOrContract(System.Object,System.Boolean)">
+            <summary>
+            Cancels Request/Contract and sends notification email
+            </summary>
+            <param name="opportunityId">opportunity ID</param>
+            <param name="cancelContractApproval">Flag to indicate if cancel contract is approval</param>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            that crashed the system , if a construction stage was set
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetEmailTextSubject(System.Object,System.String)">
+            <summary>
+            Gets the text for the Cancel notification email
+            </summary>
+            <param name="opportunityId">opportunity ID</param>
+            <param name="subject">email subject text</param>
+            <returns>Email message text</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetEmailRecipients(System.Object)">
+            <summary>
+            Gets the emails of them sales team members on the opportunity team member who have the notify
+            set to true
+            </summary>
+            <param name="opportunityId">opportunity ID</param>
+            <returns>List of email recipients</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CheckHomesite(System.Object)">
+            <summary>
+            This function will be called when a user is trying to save a Quote record and entered Neighborhood
+            but didn't enter <see crtef="Homesite"/>. If <see crtef="Homesite Required Quote"/> field of neighborhood is 
+            True, then <see crtef="Homesite"/> field on the Quote is mandatory
+            </summary>
+            <param name="neighborhoodId">Neighborhood Id</param>
+            <returns>True if validation OK (then <see crtef="Homesite Required Quote"/>is False)
+            False if validation is NOT OK</returns>
+            <history>
+            Revision#      Date            Author          Description
+            3.8.0.0        5/12/2006       DYin            Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SetQuotePriceUpdate(System.Object,System.Boolean)">
+            <summary>
+            sets the Price Update field to the supplied value
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="priceUpdated">Flag to indicate if the quote price is updated.</param>
+            <history>
+            Revision#    Date       Author    Description
+            3.8.0.0      5/12/2006  DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SalesRequestDeclined(System.Object)">
+            <summary>
+            Executes a Sales Request Declined and sends notification email
+            </summary>
+            <param name="opportunityId">opportunity ID</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CancelRequestDeclined(System.Object)">
+            <summary>
+            Cancel Request Declined and sends notification email
+            </summary>
+            <param name="opportunityId">opportunity ID</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SalesRequest(System.Object)">
+            <summary>
+            Sales Request and sends notification email
+            </summary>
+            <param name="opportunityId">opportunity ID</param>
+            <returns>None</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuotePlanPrice(System.Object)">
+            <summary>
+            returns the final plan price for a quote
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <returns>Quote plan price</returns>
+            <history>
+            Revision#      Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuotePlanPrice(System.Object,System.Decimal@)">
+            <summary>
+            returns the final plan price for a quote
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="homesitePremium">the base price</param>
+            <returns>Quote plan price</returns>
+            <history>
+            Revision#      Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuotePlanPrice(System.Object,System.Object,System.Object)">
+            <summary>
+            returns the final plan price for a quote
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="lotId">Lot Id</param>
+            <param name="planId">can be supplied if price is not, to obtain price from plan</param>
+            <returns>Quote plan price</returns>
+            <history>
+            Revision#      Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuotePlanPrice(System.Object,System.Object,System.Object,System.Decimal@)">
+            <summary>
+            Returns the final plan price for a quote, If the lotId is null, the lot Id for opportunity will be used, 
+            if the planId is null, the Plan_Name_Id for the opportunity will be used.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="lotId">Lot Id</param>
+            <param name="planId">can be supplied if price is not, to obtain price from plan</param>
+            <param name="homesitePremium">the base price</param>
+            <returns>Quote plan price</returns>
+            <history>
+            Revision#      Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuotePlanPrice(Pivotal.Interop.ADODBLib.Recordset,System.Decimal@)">
+            <summary>
+            returns the final plan price for a quote
+            </summary>
+            <param name="opportunityRecordset">Opportunity recordset</param>
+            <param name="homesitePremium">the base price</param>
+            <returns>Quote plan price</returns>
+            <history>
+            Revision#      Date           Author      Description
+            3.8.0.0        5/12/2006      DYin        Converted to .Net C# code.
+            5.9.0.0        4/9/2007       BC          Issue Fix: 65536-18697
+            5.9.0.0        7/24/2007      ML          Issue Fix: 65536-19941
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateCustomerQuoteLocations(System.Object)">
+            <summary>
+            Generates the note to be placed on the quote when inactivating because of an inventory change
+            </summary>
+            <returns>note as string</returns>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CopyOptionSecondaryByOption(System.Object,System.Object)">
+            <summary>
+            Copy Secondaries for a opportunity product
+            </summary>
+            <param name="sourceOptionId">Source Option Id</param>
+            <param name="targetOptionId">Target Option id</param>
+            <returns>a boolean - true if the function created the secondaries properly, false otherwise</returns>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.CanInactivateInventoryQuote(System.Object)">
+            <summary>
+            Can only inactivate an inventory quote when 1. no active customer quotes exists
+            </summary>
+            <returns>note as string</returns>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateInventoryHomesiteType(System.Object,System.String)">
+            <summary>
+            Called in DeleteFormData. Change the quote's homesite type from "Inventory" back to "Homesite"
+            whenever an inventory quote is deleted.
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="newHomesiteType">New homesite type</param>
+            <history>
+            Revision#    Date        Author  Description
+            3.8.0.0      5/12/2006   DYin    Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.ApplyReleaseMilestones(System.Object)">
+            <summary>
+            On Approve of sale the Milestones defined on the release are applied to the contract
+            </summary>
+            <param name="quoteOpportunityId">Quote Id</param>
+            <history>
+            Revision#    Date        Author  Description
+            3.8.0.0      5/12/2006   DYin    Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.UpdateCustomerQuoteAdditionalPrice(Pivotal.Interop.ADODBLib.Recordset)">
+            <summary>
+            Updates customer quotes price when additional price for inventory quote changes
+            </summary>
+            <param name="opportunityRecordset">Opportunity recordset</param>
+            <history>
+            Revision #   Date         Author   Description
+            3.8.0.0  5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.DeleteTeam(System.Object)">
+            <summary>
+            This function will delete Quote sales team
+            </summary>
+            <param name="opportunityId">Opportunity Id</param>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.DeleteOptions(System.Object)">
+            <summary>
+            This function will delete options on a Quote
+            </summary>
+            <returns>None</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetReSelectedOptionPriceAndBuiltInfo(System.Object,System.Decimal@,System.Boolean@,System.Boolean@)">
+            <summary>
+            This function is in high level, and it will call GetQuoteOptionPrice to get the price for the RE-SELECTED option.
+            If a brand new option was selected then CreateOpportunityProductOption function will determine the price.
+            This function will also be called in Envision integration method UpdateBuyerSelections
+            </summary>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="price">price</param>
+            <param name="usePostCutoffPrice">usePostCutoffPrice</param>
+            <param name="built">built</param>
+            <returns>true: it is regular option, i.e. division_product_ID is defined 
+                     false: it is custom option, i.e. division_product_ID is not defined 
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            5.9.0.0        May/01/2007    JWang     Get the re-selected option price.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuoteOptionPrice(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            This function figures out the price of options based on certain conditions of the quote.
+            a. Initial Population of Options use "Build Option Pricing"
+            Fixed    --> use prices on Opp Product
+            Floating --> use NBHDP Product current Price
+            b. Additional Option Selection --> use NBHD Product current Price
+            Fixed    --> use price as of the Sales Request date and in the case of the Post Sale use the sale date of
+            the contract
+            Floating --> use NBHD Product current price
+            </summary>
+            <param name="quoteOpportunityId"></param>
+            <param name="neighborhoodPhaseProductId">Neighborhood Phase Product Id</param>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="contractId">Contract Id is used with Post-Sale Quote</param>
+            <returns>Quote option price </returns>
+            <history>
+            Revision       Date           Author    Description
+            5.9.0.0       Mar/06/2007      YK       Initial Version.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetQuoteOptionPrice(System.Object,System.Object,System.Object,System.Object,System.Boolean)">
+            <summary>
+            This function figures out the price of options based on certain conditions of the quote.
+            a. Initial Population of Options use "Build Option Pricing"
+            Fixed    --> use prices on Opp Product
+            Floating --> use NBHDP Product current Price
+            b. Additional Option Selection --> use NBHD Product current Price
+            Fixed    --> use price as of the Sales Request date and in the case of the Post Sale use the sale date of
+            the contract
+            Floating --> use NBHD Product current price
+            </summary>
+            <param name="quoteOpportunityId"></param>
+            <param name="neighborhoodPhaseProductId">Neighborhood Phase Product Id</param>
+            <param name="opportunityProductId">Opportunity Product Id</param>
+            <param name="contractId">Contract Id is used with Post-Sale Quote</param>
+            <param name="blnUsePCOPrice">True-If the Post Cut Off Price needs to be returned, False for the regular price</param>
+            <returns>Quote option price </returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            5.9.0.0        2/26/2007      BC        Changed the code to handle the Post Cutt Off Price
+            5.9.0.0        mar/06/2007    YK        Adding another paramter to get appropriate results.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetOptionPrice(System.Object,System.Boolean,System.DateTime)">
+            <summary>
+            This function figures out the price of options based on certain dates
+            </summary>
+            <param name="neighborhoodPhaseProductId"></param>
+            <param name="current">Flag to indicate whether get the current option price or price based on a date</param>
+            <param name="optionPriceDate">Date for the price</param>
+            <returns>Option price</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.GetOptionPrice(System.Object,System.Boolean,System.DateTime,System.Boolean)">
+            <summary>
+            This function figures out the price of options based on certain dates
+            </summary>
+            <param name="neighborhoodPhaseProductId"></param>
+            <param name="current">Flag to indicate whether get the current option price or price based on a date</param>
+            <param name="optionPriceDate">Date for the price</param>
+            <param name="blnPCOUsed">boolean to check if the PCO is used</param>
+            <returns>Option price</returns>
+            <history>
+            Revision       Date           Author    Description
+            3.8.0.0        5/12/2006      DYin      Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.EncodeXML(System.String)">
+            <summary>
+            Encode an XML string
+            </summary>
+            <param name="xmlText">string to be encoded</param>
+            <returns>encoded XML string</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.DecodeXml(System.String)">
+            <summary>
+            Decode any XML that has been encoded
+            </summary>
+            <param name="xmlText">the XML to be decoded</param>
+            <returns>decoded XML string</returns>
+            <history>
+            Revision#      Date          Author     Description
+            3.8.0.0        5/12/2006     DYin       Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SecondaryExists(System.String,System.Object,System.String)">
+            <summary>
+            This function checks to see if a secondary exists.
+            </summary>
+            <param name="formName">form Name</param>
+            <param name="recordsets">Form collection</param>
+            <param name="segmentName">Section name</param>
+            <returns>True if a secondary was found, False if no secondary was found</returns>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.IsTherePSQ(System.Object)">
+            <summary>
+            Check if there is a post sale quote for the specified contract
+            </summary>
+            <param name="contractId">contractId</param>
+            <returns>bool - True if find PSQ
+                          - False otherwise
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            HB5.9          6/08/2007      JWang     Initial version
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.SingleOptionValidation(System.Object)">
+            <summary>
+            Do validation for the single option.
+            Check if this option has no location info provided but referencing "All Locations" product configurations.
+            Check if this option has dulpcate locations.
+            This function should be called before making a single option built.
+            </summary>
+            <param name="oppProdId">oppProdId</param>
+            <returns>string - Massage showing validation result; empty if validation succeeds.
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            HB5.9          08/14/2007     JWang     Initial version
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.InventoryHomeOptionValidation(System.Object)">
+            <summary>
+            For the inventory homesite find the corresponding inventory quote and do validation for the options
+            Check if there are options with no location info provided but referencing "All Locations" product configurations.
+            This function should be called before changing the construction stage of an inventory homesite.
+            </summary>
+            <param name="homesiteId">HomesiteId</param>
+            <returns>string - Massage showing validation result; empty if validation succeeds.
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            HB5.9          08/14/2007      JWang     Initial version
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.OptionNeedsLocation(System.Object)">
+            <summary>
+            Check if there are options with no location info provided but referencing "All Locations" product configurations.
+            This function should be called before converting the quote to contract if the related division is integrated with Envision.
+            </summary>
+            <param name="oppId">oppId</param>
+            <returns>string - Massage showing list of options which need location info; empty if no options missing locations.
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            HB5.9          6/08/2007      JWang     Initial version
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.OptionsWithDuplicateLocations(System.Object)">
+            <summary>
+            Check if there are options with duplicate locations info provided.
+            One location can only select the same option once.
+            This function should be called before converting the quote to contract if the related division is integrated with Envision.
+            </summary>
+            <param name="oppId">oppId</param>
+            <returns>string - Message showing list of options with duplicate locations info; empty string if no duplicates found.
+            </returns>
+            <history>
+            Revision       Date           Author    Description
+            HB5.9          8/01/2007      JWang     Initial version
+            </history>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.LangDict">
+            <summary>
+            Language Dictionary
+            </summary>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.RSysSystem">
+            <summary>
+            System
+            </summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.Opportunity.structOption">
+            <summary>
+            Structure used for Standard Options in GetStandardWithRules method
+            </summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator">
+            <summary>
+            This module provides all the business rules for running and saving from the
+            financial calculator.
+            </summary>
+            <history>
+            Revision #  Date        Author  Description
+            3.8.0.0     5/12/2006   DYin    Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.AddFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            Add form data
+            </summary>
+            <param name="pForm">The IRForm object reference to the client IRForm object</param>
+            <param name="Recordsets">Hold the reference for the current primary recordset and its all
+            secondaries in the specified form.</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            IRFormScript_AddFormData - Return information to IRSystem</returns>
+            <history>
+            Revision#     Date            Author          Description
+            3.8.0.0       5/12/2006       DYin            Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.DeleteFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            Delete Form Data
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="RecordId">The business object record Id</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.Execute(Pivotal.Interop.RDALib.IRForm,System.String,System.Object@)">
+            <summary>
+            Execute a specified method
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="MethodName">The method name to be executed</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            ParameterList - Return executed result</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoadFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="RecordId">The Opportunity Id</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns> The form data</returns>
+            <history>
+            Revision#     Date        Author       Description
+            3.8.0.0       5/12/2006   DYin         Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.NewFormData(Pivotal.Interop.RDALib.IRForm,System.Object@)">
+            <summary>
+            This function load a new Opportunity Loan Profile record
+            </summary>
+            <param name="pForm">The IRform object reference to the client IRForm object</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            IRFormScript_NewFormData   - Returned information</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.NewSecondaryData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@,Pivotal.Interop.ADODBLib.Recordset@)">
+            <summary>
+            This function create a new secondary record for the specified secondary
+            </summary>
+            <param name="pForm">The IRForm object reference to the client IRForm object</param>
+            <param name="SecondaryName">The secondary name (the Segment name to hold a secondary)</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <param name="Recordset">Hold the reference for the secondary</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SaveFormData(Pivotal.Interop.RDALib.IRForm,System.Object,System.Object@)">
+            <summary>
+            This function updates the Opportunity Loan Profile plan
+            </summary>
+            <param name="pForm">The IRForm object reference to the client IRForm object</param>
+            <param name="Recordsets">Hold the reference for the current primary recordset and its all
+            secondaries in the specified form.</param>
+            <param name="ParameterList">The Parameters passed from Client to Middle tier for Business rule</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author          Description
+            3.8.0.0       5/12/2006   DYin            Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetSystem(Pivotal.Interop.RDALib.RSystem)">
+            <summary>
+            This subroutine sets the Active Client System.
+            </summary>
+            <param name="pSystem">Active Client System Name</param>
+            <returns>
+            None</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetValuePairsString(System.String,System.Object)">
+            <summary>
+            Add an XML attribute to an XML node
+            </summary>
+            <param name="pairName">The name of the attribute</param>
+            <param name="pairValue">The value of the attribute</param>
+            <returns>Attribute string in the format "Attribute='Name' "</returns>
+            <history>
+            Revision#     Date        Author       Description
+            3.8.0.0       5/12/2006   DYin         Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetValuePairsBool(System.String,System.Object)">
+            <summary>
+            Add an XML attribute to an XML node evaluated as a boolean
+            </summary>
+            <param name="pairName">The name of the attribute</param>
+            <param name="pairValue">The expression to be evaluated</param>
+            <returns>Attribute string in the format "Attribute='Yes' " OR "Attribute='No' "</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.GetLoanProgramsXml(System.Object,System.Object,System.Object)">
+            <summary>
+            This service is called when the financer component requires a new list of loan programs to be downloaded
+            </summary>
+            <param name="loanProfileId">LoanProfile Id</param>
+            <param name="opportunityId">Opportunity</param>
+            <param name="neighborhoodId">Neighborhood Id</param>
+            <history>
+            Revision#     Date        Author          Description
+            3.8.0.0       5/12/2006   DYin            Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProgramsForEmployee(System.Object)">
+            <summary>
+            Set Loan Program for Empleoyees
+            </summary>
+            <param name="employeeId">Employee Idc</param>
+            <returns>Xml text with Program for the employee</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetRegions(System.Object)">
+            <summary>
+            Sets the Regions XML information for the financial calculator
+            </summary>
+            <param name="employeeId">Employee Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            5.9.0.0       3/20/2007   RY          Took out Neighborhood Phone.  Issue 63614.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetDivisions(System.Object,System.Object)">
+            <summary>
+            Sets the Divisions XML information for the financial calculator by calling <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetNeighborhoods(System.Object,System.Object,System.Object)"/>
+            </summary>
+            <param name="employeeId">Employee Id</param>
+            <param name="regionId">Region Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetNeighborhoods(System.Object,System.Object,System.Object)">
+            <summary>
+            Sets the Neighborhoods XML information for the financial calculator by calling 
+            <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetNeighborhoodFees(System.Object,System.Object,System.Object)"/> and <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanPrograms(System.Object,System.Object,System.Object)"/>.
+            </summary>
+            <param name="employeeId">Employee Id</param>
+            <param name="regionId">Region Id</param>
+            <param name="divisionId">Division Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetNeighborhoodFees(System.Object,System.Object,System.Object)">
+            <summary>
+            Sets the Neighborhood fees XML information for the financial calculator
+            </summary>
+            <param name="regionId">Region Id</param>
+            <param name="divisionId">Division Id</param>
+            <param name="neighborhoodId">NeighborhoodId</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision# Date Author Description
+            3.8.0.0   5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanPrograms(System.Object,System.Object,System.Object)">
+            <summary>
+            Sets the Loan Program XML information for the financial calculator
+            </summary>
+            <param name="regionId">Region Id</param>
+            <param name="divisionId">Division Id</param>
+            <param name="neighborhoodId">NeighborhoodId</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoans(System.Object,System.Object)">
+            <summary>
+            Sets the Loan XML information for the financial calculator by calling <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanFees(System.Object,System.Object)"/>
+            </summary>
+            <param name="loanId">Loan Id</param>
+            <param name="neighborhoodId">Neighborhood Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision# Date Author Description
+            3.8.0.0   5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanFees(System.Object,System.Object)">
+            <summary>
+            Sets the Loan Fee XML information for the financial calculator
+            </summary>
+            <param name="neighborhoodId">NeighborhoodId</param>
+            <param name="loanId">Loan Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision# Date Author Description
+            3.8.0.0   5/12/2006  DYin  Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetOpportunityTotalXml">
+            <summary>
+            Return the value of the loan to be geneated in XML format
+            This XML needs to be included if the Save button is to be diplayed 
+            </summary>
+            <returns>
+            XML string for the Opp XML node containing the TPC attribute with the loan amount</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SaveLoanProfile(System.Object,System.Object,System.String)">
+            <summary>
+            Save or update a Loan Profile
+            </summary>
+            <param name="loanProfileId">Loan Profile Id</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="loanProfileXml" >Loan Profile XML</param>
+            <returns>true/false</returns>
+            <history>
+            Revision# Date Author Description
+            3.8.0.0   5/12/2006  DYin  Converted to .Net C# code.
+            5.9.0.0   3/20/2007  RY    Issue 65536-17297.  Fixed bug on resetting other loan profile Selected flags.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.GetLoanProfileInfo(System.Xml.XmlDocument)">
+            <summary>
+            Set up the m_LoanProfile type containing the values for the selected Loan Profile from the
+            XML that is returned from the Financial Calculator
+            </summary>
+            <param name="xmlDocument">XML passed in from the Financial Calculator application</param>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoadLoanProfileInfo(System.Object)">
+            <summary>
+            Loads the m_LoanProfile type from the database
+            </summary>
+            <param name="loanProfileId">Loan Profile Id</param>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            5.9.0.0       3/20/2007   RY          Issue 63834.  Fixed down payment percent to include decimal digits.
+            5.9.0.0       8/25/2007   RY          Issue 65536-20245. Set the LoanProfile member properly.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProgramsForNeighborhood(System.Object,System.Object)">
+            <summary>
+            Return all Loan Programs for a specified Neighborhood in XML format
+            </summary>
+            <param name="neighborhoodId">Neighborhood Id</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetNeighborhoodOpportunityXml(System.Decimal,System.Decimal)">
+            <summary>
+            Creates the Opp XML node to set the Quote amount
+            </summary>
+            <param name="postContractAdjustment">Post contract adjustment</param>
+            <param name="totalAmount">Total Invoice amount for the Quote</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoadLoanProfile(System.Object)">
+            <summary>
+            Load a Loan Profile from the database
+            </summary>
+            <param name="loanProfileId">Loan Profile Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProfile(System.Object)">
+            <summary>
+            Sets up the header XML to contain Loan Profiles by calling <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProfileXml(System.Object)"/> and
+            <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanPrograms(System.Object,System.Object,System.Object)"/>.
+            </summary>
+            <param name="loanProfileId">Loan Profile Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProfileXml(System.Object)">
+            <summary>
+            Sets up the header XML to contain Loan Profiles by calling <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProfileXml(System.Object)"/> and 
+            <see cref="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanPrograms(System.Object,System.Object,System.Object)"/>
+            </summary>
+            <param name="loanProfileId">Loan Profile Id</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanProfileLoanXml(System.Object,System.Object,System.Double)">
+            <summary>
+            Retrieves the loan information from the database for a specified loan
+            </summary>
+            <param name="loanId">Loan Id in integer format</param>
+            <param name="neighborhoodId">Neighborhood Id in integer format</param>
+            <param name="loanRate">Loan Rate</param>
+            <returns>XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetOpportunityXml">
+            <summary>
+            Return the value of the loan to be geneated in XML format
+            </summary>
+            <returns>
+            XML string to be passed to the financial calculator</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetTaxDeductionData(System.Int32,System.Object)">
+            <summary>
+            This function is called when the web service needs to determine what
+            tax rate data is available by year
+            </summary>
+            <param name="taxYear">the tax year for tax rate data</param>
+            <param name="taxScheduleId">the tax schedule id</param>
+            <returns>XML string representing the tax deduction data defined for the
+            year requested and the immediate prior year, if any</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetTaxTableData(System.Int32,System.Object)">
+            <summary>
+            This function is called when the web service needs to determine what
+            tax table data is available by year and schedule
+            intYear, the tax year for tax rate data
+            intTSID, the tax schedule id value
+            XML string representing the tax table data defined for the
+            year requested and the immediate prior year, if any
+            </summary>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetTaxScheduleData(System.Int32)">
+            <summary>
+            This function is called when the web service needs to determine what
+            </summary>
+            tax rate data is available by year
+            intYear, the tax year for tax rate data
+            XML string representing the tax schedule data defined for the
+            year requested and the immediate prior year, if any
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.CheckTaxDataAvailable(System.Int32)">
+            <summary>
+            This function is called when the web service needs to determine what
+            </summary>
+            <param name="taxYear">the tax year for tax rate data</param>
+            <returns>true, the specified years' data is available
+            false, the specified years' data is not available</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetTaxRateData">
+            <summary>
+            This function is called when the web service needs to determine what
+            tax rate data should be delivered to the XML string
+            </summary>
+            <returns>XML string specifying the tax rate data in the database</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoadFinancialCalculatorXml(System.Object,System.Object,System.Object)">
+            <summary>
+            This function is called when the financial calculator is loaded
+            </summary>
+            <param name="loanProfileId">Loan Profile Id</param>
+            <param name="opportunityId">Opportunity Id</param>
+            <param name="neighborhoodId">Neighborhood Id)</param>
+            <returns>Financial Calculator Xml</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.SetLoanSpecialFees">
+            <summary>
+            Returns the XML for the most recent Loan Special Fees data.
+            </summary>
+            <returns>XML string specifying the loan special fee data in the database</returns>
+            <history>
+            Revision#     Date        Author      Description
+            3.8.0.0       5/12/2006   DYin        Converted to .Net C# code.
+            </history>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.ObjectToId(System.Object)">
+            <summary>
+            Converts an Object to an Id
+            </summary>
+            <param name="recordId">Record Id</param>
+            <returns>Object representation of the record id</returns>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.IdToInteger(System.Object)">
+            <summary>
+            Converts an Id to an Integer
+            </summary>
+            <param name="recordId">Record Id</param>
+            <returns>Integer representation of the record id</returns>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LangDict">
+            <summary>
+            Language Dictionary
+            </summary>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.RSysSystem">
+            <summary>
+            System
+            </summary>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.DEFAULT_LOAN_AMT">
+            <summary>
+            Default Loan Amount
+            </summary>
+        </member>
+        <member name="P:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfile">
+            <summary>
+            Loan Profile
+            </summary>
+        </member>
+        <member name="T:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo">
+            <summary>
+            Loan Profile Information
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.LoanProfileId">
+            <summary>
+            Loan Profile Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.LoanProgramId">
+            <summary>
+            Loan Program Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Loan1Id">
+            <summary>
+            Loan 1 Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Loan1Amount">
+            <summary>
+            Loan 1 Amount
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Loan1InterestRate">
+            <summary>
+            Loan 1 Interest Rate
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Loan2Id">
+            <summary>
+            Loan 2 Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Loan2Amount">
+            <summary>
+            Loan 2 Amount
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Loan2InterestRate">
+            <summary>
+            Loan 2 Interest Rate
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.MonthlyIncome">
+            <summary>
+            Monthly Income
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.MonthlyDebt">
+            <summary>
+            Monthly Debt
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.TotalPrice">
+            <summary>
+            Total Price
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.DownPayment">
+            <summary>
+            Down Payment
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.DownPaymentPercent">
+            <summary>
+            Down Payment Percent
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.PostContractAdjustment">
+            <summary>
+            Post Contract Adjustment
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Payment">
+            <summary>
+            Payment
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.RegionId">
+            <summary>
+            Region Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.DivisionId">
+            <summary>
+            Division Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.NeighborhoodId">
+            <summary>
+            Neighborhood Id
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.Xml">
+            <summary>
+            Xml
+            </summary>
+        </member>
+        <member name="F:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.ParticipationFee">
+            <summary>
+            Participation Fede
+            </summary>
+        </member>
+        <member name="M:CdcSoftware.Pivotal.Applications.HomeBuilders.EF.Server.OpportunityFinancialCalculator.LoanProfileInfo.#ctor(System.Object)">
+            <summary>
+            Default constructor for Loan Profile Info
+            </summary>
+            <param name="obj">Object</param>
+        </member>
+    </members>
+</doc>

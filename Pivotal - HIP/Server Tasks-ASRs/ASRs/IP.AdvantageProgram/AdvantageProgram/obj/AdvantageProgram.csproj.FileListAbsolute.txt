@@ -1,0 +1,5 @@
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.AdvantageProgram.dll
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.AdvantageProgram.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.AdvantageProgram\AdvantageProgram\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.AdvantageProgram\AdvantageProgram\obj\Debug\CRM.Pivotal.IP.AdvantageProgram.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.AdvantageProgram\AdvantageProgram\obj\Debug\CRM.Pivotal.IP.AdvantageProgram.pdb

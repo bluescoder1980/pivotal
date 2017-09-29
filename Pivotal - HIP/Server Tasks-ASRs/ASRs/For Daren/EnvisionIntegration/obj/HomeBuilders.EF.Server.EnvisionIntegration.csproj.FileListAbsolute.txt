@@ -1,0 +1,15 @@
+M:\Program Files\Pivotal\ePower\Dev_Offline\Assemblies\HomeBuilders.EF.Server.EnvisionIntegration.dll
+C:\Integration\CodeDev\EnvisionIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Integration\CodeDev\EnvisionIntegration\obj\Debug\HomeBuilders.EF.Server.EnvisionIntegration.dll
+C:\Integration\CodeDev\EnvisionIntegration\obj\Debug\HomeBuilders.EF.Server.EnvisionIntegration.pdb
+M:\Program Files\Pivotal\ePower\Dev_Offline\Assemblies\HomeBuilders.EF.Server.EnvisionIntegration.pdb
+M:\Program Files\Pivotal\ePower\Dev_Offline\Assemblies\HomeBuilders.EF.Server.EnvisionIntegration.dll.CodeAnalysisLog.xml
+M:\Program Files\Pivotal\ePower\Dev_Offline\Assemblies\HomeBuilders.EF.Server.EnvisionIntegration.dll.lastcodeanalysissucceeded
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\HomeBuilders.EF.Server.EnvisionIntegration.dll
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\HomeBuilders.EF.Server.EnvisionIntegration.pdb
+C:\Documents and Settings\xamaldonado\Working\Download\EnvisionIntegration\EnvisionIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Download\EnvisionIntegration\EnvisionIntegration\obj\Debug\HomeBuilders.EF.Server.EnvisionIntegration.dll
+C:\Documents and Settings\xamaldonado\Working\Download\EnvisionIntegration\EnvisionIntegration\obj\Debug\HomeBuilders.EF.Server.EnvisionIntegration.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\EnvisionIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\EnvisionIntegration\obj\Debug\HomeBuilders.EF.Server.EnvisionIntegration.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\EnvisionIntegration\obj\Debug\HomeBuilders.EF.Server.EnvisionIntegration.pdb

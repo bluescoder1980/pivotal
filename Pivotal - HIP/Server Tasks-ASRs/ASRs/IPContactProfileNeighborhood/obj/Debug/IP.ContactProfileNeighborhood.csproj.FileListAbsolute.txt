@@ -1,0 +1,5 @@
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.ContactProfileNeighborhood.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.ContactProfileNeighborhood.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPContactProfileNeighborhood\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPContactProfileNeighborhood\obj\Debug\CRM.Pivotal.IP.ContactProfileNeighborhood.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPContactProfileNeighborhood\obj\Debug\CRM.Pivotal.IP.ContactProfileNeighborhood.pdb

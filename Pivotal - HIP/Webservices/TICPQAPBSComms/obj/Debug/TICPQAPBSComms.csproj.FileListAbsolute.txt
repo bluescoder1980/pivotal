@@ -1,0 +1,6 @@
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPQAPBSComms\bin\Debug\TICPQAPBSComms.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPQAPBSComms\bin\Debug\TICPQAPBSComms.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPQAPBSComms\bin\Debug\WebServiceSecurity.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPQAPBSComms\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPQAPBSComms\obj\Debug\TICPQAPBSComms.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPQAPBSComms\obj\Debug\TICPQAPBSComms.pdb

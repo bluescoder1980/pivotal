@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[IPContact.csproj]
+SCC_Aux_Path = "\\vss01\VSSMain\SourceSafe"
+SCC_Project_Name = "$/Irvine Pacific (HIP)/ASR/IPCONTACT", SHRHAAAA
+
+[IP.Contact.sln]
+SCC_Aux_Path = "\\vss01\VSSMain\SourceSafe"
+SCC_Project_Name = "$/Irvine Pacific (HIP)/ASR/IPCONTACT", SHRHAAAA

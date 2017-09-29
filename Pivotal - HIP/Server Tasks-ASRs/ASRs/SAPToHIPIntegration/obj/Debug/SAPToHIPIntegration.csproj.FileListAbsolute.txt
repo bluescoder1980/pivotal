@@ -1,0 +1,21 @@
+C:\AMCNAB\Code\AppServer Rules\SAPToHIPIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll.config
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.pdb
+C:\AMCNAB\Code\AppServer Rules\SAPToHIPIntegration\obj\Debug\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\AMCNAB\Code\AppServer Rules\SAPToHIPIntegration\obj\Debug\CRM.Pivotal.IP.SAPToHIPIntegration.pdb
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll.config
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\Documents and Settings\xamaldonado\Working\AMCNAB\Code\AppServer Rules\SAPToHIPIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\AMCNAB\Code\AppServer Rules\SAPToHIPIntegration\obj\Debug\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\Documents and Settings\xamaldonado\Working\AMCNAB\Code\AppServer Rules\SAPToHIPIntegration\obj\Debug\CRM.Pivotal.IP.SAPToHIPIntegration.pdb
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\SAPToHIPIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\SAPToHIPIntegration\obj\Debug\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\SAPToHIPIntegration\obj\Debug\CRM.Pivotal.IP.SAPToHIPIntegration.pdb
+C:\Documents and Settings\xamaldonado\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll.config
+C:\Documents and Settings\xamaldonado\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\Documents and Settings\xamaldonado\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.pdb
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll.config
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.dll
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\CRM.Pivotal.IP.SAPToHIPIntegration.pdb

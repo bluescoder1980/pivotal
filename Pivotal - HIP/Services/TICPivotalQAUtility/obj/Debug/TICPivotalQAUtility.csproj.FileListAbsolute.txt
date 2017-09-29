@@ -1,0 +1,8 @@
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\bin\Debug\TICPivotalQAUtility.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\obj\Debug\TICPivotalQAUtility.pdb
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\bin\Debug\Interop.RMD5Lib.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\obj\Debug\Interop.RMD5Lib.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\obj\Debug\TICPivotalQAUtility.csproj.ResolveComReference.cache
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\bin\Debug\TICPivotalQAUtility.dll
+C:\Documents and Settings\xamaldonado\Working\Phase 2\QA Solution\Services\TICPivotalQAUtility\obj\Debug\TICPivotalQAUtility.dll

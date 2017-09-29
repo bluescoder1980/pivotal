@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+..\..\..\..\Program Files\Pivotal\ePower\SAM_INT\Assemblies\Pivotal.Application.TIC.SAMIntegration.dll
+..\..\..\..\Program Files\Pivotal\ePower\SAM_INT\Assemblies\Pivotal.Application.TIC.SAMIntegration.pdb
+obj\Debug\Pivotal.Application.TIC.SAMIntegration.dll
+obj\Debug\Pivotal.Application.TIC.SAMIntegration.pdb

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d93fdf98-6b03-4d96-b86d-a13485659c0e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://web02.rental-living.com/WebServices/PDFGenService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PDFGenService1.wsdl" MetadataType="Wsdl" ID="883f68b6-48ef-4ead-9943-1d501cba4655" SourceId="1" SourceUrl="http://web02.rental-living.com/WebServices/PDFGenService.svc?wsdl" />
+    <MetadataFile FileName="PDFGenService3.xsd" MetadataType="Schema" ID="595277be-7c92-43dc-9f96-7e8c8317b7e4" SourceId="1" SourceUrl="http://web02.rental-living.com/WebServices/PDFGenService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PDFGenService31.xsd" MetadataType="Schema" ID="c06cc6fa-c31b-41dd-bbad-1d3e8a9cf6e0" SourceId="1" SourceUrl="http://web02.rental-living.com/WebServices/PDFGenService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PDFGenService1.disco" MetadataType="Disco" ID="488143d5-8a68-4e0c-b0e3-7088afdc11fe" SourceId="1" SourceUrl="http://web02.rental-living.com/WebServices/PDFGenService.svc?disco" />
+    <MetadataFile FileName="PDFGenService32.xsd" MetadataType="Schema" ID="80cd2969-96d2-47db-a208-08d18ca589ee" SourceId="1" SourceUrl="http://web02.rental-living.com/WebServices/PDFGenService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

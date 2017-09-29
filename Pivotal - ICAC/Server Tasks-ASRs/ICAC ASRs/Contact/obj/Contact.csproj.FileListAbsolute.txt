@@ -1,0 +1,9 @@
+C:\PROJECTS\ASRs\IAC\Contact\Contact\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Contact.dll
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Contact.pdb
+C:\PROJECTS\ASRs\IAC\Contact\Contact\obj\Debug\CRM.Pivotal.IAC.Contact.dll
+C:\PROJECTS\ASRs\IAC\Contact\Contact\obj\Debug\CRM.Pivotal.IAC.Contact.pdb
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Contact.dll.config
+C:\PROJECTS\ASRs\IAC\Contact\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJECTS\ASRs\IAC\Contact\obj\Debug\CRM.Pivotal.IAC.Contact.dll
+C:\PROJECTS\ASRs\IAC\Contact\obj\Debug\CRM.Pivotal.IAC.Contact.pdb

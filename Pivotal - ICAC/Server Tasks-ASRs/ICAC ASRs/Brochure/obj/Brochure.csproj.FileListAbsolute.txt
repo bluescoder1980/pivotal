@@ -1,0 +1,9 @@
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Brochure.dll
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Brochure.pdb
+C:\PROJECTS\ASRs\IAC\Contact\Brochure\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJECTS\ASRs\IAC\Contact\Brochure\obj\Debug\CRM.Pivotal.IAC.Brochure.dll
+C:\PROJECTS\ASRs\IAC\Contact\Brochure\obj\Debug\CRM.Pivotal.IAC.Brochure.pdb
+C:\PROJECTS\ASRs\IAC\Brochure\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJECTS\ASRs\IAC\Brochure\obj\Debug\CRM.Pivotal.IAC.Brochure.dll
+C:\PROJECTS\ASRs\IAC\Brochure\obj\Debug\CRM.Pivotal.IAC.Brochure.pdb
+C:\Program Files\Pivotal\ePower\IAC\Assemblies\CRM.Pivotal.IAC.Brochure.dll.config

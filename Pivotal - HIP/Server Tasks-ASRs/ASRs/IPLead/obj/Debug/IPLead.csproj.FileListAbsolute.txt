@@ -1,0 +1,11 @@
+U:\IP Work\Transporter Out from HIP\Lead\obj\Debug\ResolveAssemblyReference.cache
+U:\IP Work\Transporter Out from HIP\Lead\obj\Debug\CRM.Pivotal.IP.Lead.dll
+U:\IP Work\Transporter Out from HIP\Lead\obj\Debug\CRM.Pivotal.IP.Lead.pdb
+U:\IP Work\ASR\IPLead\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Lead.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\CRM.Pivotal.IP.Lead.pdb
+U:\IP Work\ASR\IPLead\obj\Debug\CRM.Pivotal.IP.Lead.dll
+U:\IP Work\ASR\IPLead\obj\Debug\CRM.Pivotal.IP.Lead.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPLead\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPLead\obj\Debug\CRM.Pivotal.IP.Lead.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IPLead\obj\Debug\CRM.Pivotal.IP.Lead.pdb

@@ -1,0 +1,9 @@
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.QAIntegration\IP.QAIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\IP.QAIntegration.dll
+C:\Program Files\Pivotal\ePower\HIP\Assemblies\IP.QAIntegration.pdb
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.QAIntegration\IP.QAIntegration\obj\Debug\IP.QAIntegration.dll
+C:\Documents and Settings\xamaldonado\Working\Source Code\Pivotal\Pivotal - HIP\Server Tasks-ASRs\ASRs\IP.QAIntegration\IP.QAIntegration\obj\Debug\IP.QAIntegration.pdb
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\IP.QAIntegration.dll
+C:\Program Files\Pivotal\ePower\HIP_DEV\Assemblies\IP.QAIntegration.pdb
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\IP.QAIntegration.dll
+C:\Program Files\Pivotal\ePower\DEV_MASTER\Assemblies\IP.QAIntegration.pdb

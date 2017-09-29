@@ -1,0 +1,7 @@
+D:\Project Resources\ASR\TICSamIntegration\TICSamIntegration\obj\Debug\ResolveAssemblyReference.cache
+D:\Project Resources\ASR\TICSamIntegration\TICSamIntegration\obj\Debug\Pivotal.Application.TIC.SAMIntegration.dll
+D:\Program Files\Pivotal\ePower\SAM_INT\Assemblies\Pivotal.Application.TIC.SAMIntegration.dll
+D:\Program Files\Pivotal\ePower\SAM_INT\Assemblies\Pivotal.Application.TIC.SAMIntegration.pdb
+D:\Project Resources\ASR\TICSamIntegration\TICSamIntegration\obj\Debug\Pivotal.Application.TIC.SAMIntegration.pdb
+D:\Program Files\Pivotal\ePower\SAM\Assemblies\Pivotal.Application.TIC.SAMIntegration.dll
+D:\Program Files\Pivotal\ePower\SAM\Assemblies\Pivotal.Application.TIC.SAMIntegration.pdb

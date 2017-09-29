@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebServiceTester.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WebServiceTester_QATestService_TICPivotalQAServiceSvc" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/QA/TICPivotalQAServiceSvc.asmx</Value>
+    </Setting>
+    <Setting Name="WebServiceTester_com_irvineco_corp_nbcddpvtl20_TICPivotalQAServiceSvc" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://nbcddpvtl20.corp.irvineco.com/QAService/TICPivotalQAServiceSvc.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
